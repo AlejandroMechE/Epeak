@@ -1,0 +1,255 @@
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 80px;
+  background: var(--bg-primary);
+  border-right: 1px solid var(--border-subtle);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2.5rem 0;
+  z-index: 1100;
+  transition: all var(--transition-normal);
+}
+
+.logo {
+  margin-bottom: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imageWrapper {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.animatedLogo {
+  width: 100%;
+  height: auto;
+  filter: drop-shadow(0 0 10px var(--bloom-orange));
+  animation: rotateMesh 20s linear infinite;
+}
+
+@keyframes rotateMesh {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.brandName {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  transform: rotate(180deg);
+  font-size: 0.75rem;
+  font-weight: 850;
+  letter-spacing: 0.1em;
+  color: var(--text-primary);
+  margin-top: 0.5rem;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--text-secondary);
+  text-decoration: none;
+  transition: all var(--transition-fast);
+  position: relative;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  transition: transform var(--transition-fast);
+}
+
+.label {
+  font-size: 0.55rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  opacity: 0;
+  text-align: center;
+  width: 100%;
+  padding: 0 4px;
+  line-height: 1.2;
+  transition: opacity var(--transition-fast);
+}
+
+.item:hover {
+  color: var(--text-primary);
+}
+
+.item:hover .label {
+  opacity: 1;
+}
+
+.active {
+  color: var(--accent-primary);
+}
+
+.active .label {
+  opacity: 1;
+}
+
+.active::after {
+  content: "";
+  position: absolute;
+  right: -30px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 4px;
+  height: 4px;
+  background: var(--accent-primary);
+  border-radius: 50%;
+  box-shadow: 0 0 10px var(--bloom-orange);
+}
+
+.item {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  width: 100%;
+}
+
+.bottom {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 100%;
+}
+
+.settingsArea {
+  position: relative;
+  width: 100%;
+}
+
+.dropdown {
+  position: absolute;
+  left: calc(100% + 15px);
+  bottom: 0;
+  width: 180px;
+  background: var(--glass-bg);
+  backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--filament-border);
+  border-radius: 12px;
+  padding: 0.75rem;
+  z-index: 1200;
+  box-shadow: var(--shadow-heavy);
+  animation: flyoutRight 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes flyoutRight {
+  from {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.dropdownSection {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.dropdownDivider {
+  height: 1px;
+  background: var(--border-subtle);
+  margin: 0.5rem 0;
+  opacity: 0.5;
+}
+
+.menuItem {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.6rem 0.75rem;
+  border-radius: 8px;
+  color: var(--text-secondary);
+  text-decoration: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  font-size: 0.75rem;
+  font-weight: 500;
+  transition: all var(--transition-fast);
+}
+
+.menuItem:hover {
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--text-primary);
+}
+
+.menuLabel {
+  white-space: nowrap;
+}
+
+.activeMenu {
+  color: var(--accent-primary);
+  background: rgba(255, 94, 0, 0.1);
+}
+
+/* Mobile Bottom Bar Transition */
+@media (max-width: 768px) {
+  .container {
+    top: auto;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 70px;
+    border-right: none;
+    border-top: 1px solid var(--border-subtle);
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0 1rem;
+    background: var(--glass-bg);
+    backdrop-filter: var(--glass-blur);
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .items {
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    gap: 0;
+  }
+
+  .bottom {
+    display: none; /* Hide utility actions on mobile bottom bar for extreme minimalism */
+  }
+
+  .label {
+    opacity: 1;
+    font-size: 0.55rem;
+  }
+
+  .active::after {
+    display: none;
+  }
+  
+  .active .icon {
+    transform: translateY(-3px);
+  }
+}

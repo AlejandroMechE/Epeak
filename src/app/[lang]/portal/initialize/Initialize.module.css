@@ -1,0 +1,21 @@
+.pageCenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+  width: 100%;
+  padding: 1rem;
+}
+
+.titleWrapper {
+  width: 100%;
+  max-width: 1300px; /* Match wizard card width for alignment */
+}
+
+.wizardWrapper {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+}

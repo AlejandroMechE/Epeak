@@ -1,0 +1,829 @@
+{
+  "navigation": {
+    "home": "Home",
+    "showcase": "Case Studies",
+    "expertise": "Expertise",
+    "about": "About",
+    "contact": "Contact",
+    "portal": "Portal",
+    "logout": "Logout",
+    "sign_in": "Sign In",
+    "get_started": "Get Started"
+  },
+  "hero": {
+    "greeting": "SOLVING YOUR CHALLENGES THROUGH PRECISION SOFTWARE",
+    "title_part1": "ENGINEERING",
+    "title_part2": "HIGH-PERFORMANCE",
+    "title_part3": "SYSTEMS",
+    "subtitle": "Automate complex workflows and build reliable software that scales with business success. Specialized in high-performance solutions designed with engineering precision.",
+    "cta": "VIEW CASE STUDIES"
+  },
+  "experience": {
+    "title": "CASE STUDIES",
+    "roles": [
+      {
+        "id": "quantum-ledger",
+        "title": "DISTRIBUTED LEDGER SYSTEMS",
+        "company": "Lead Software Engineer",
+        "description": "Engineered high-concurrency financial systems with a focus on immutable audit trails and real-time transaction processing in scalable cloud environments.",
+        "tags": ["Python", "Docker", "GCP"]
+      },
+      {
+        "id": "neural-analytics",
+        "title": "AI DATA INFRASTRUCTURE",
+        "company": "Infrastructure Architect",
+        "description": "Architected complex data pipelines and neural processing units, optimizing analytics throughput and ensuring low-latency inference for enterprise-scale deployments.",
+        "tags": ["React", "AWS", "Python"]
+      },
+      {
+        "id": "antaro-use",
+        "title": "VISUALIZATION PLATFORMS",
+        "company": "Lead Technical Architect",
+        "description": "Developed advanced data visualization algorithms and interactive dashboards, bridging the gap between high-dimensional data and actionable business intelligence.",
+        "tags": ["AWS", "TypeScript", "D3.js"]
+      }
+    ]
+  },
+  "common": {
+    "view_case_study": "VIEW CASE STUDY"
+  },
+  "expertise": {
+    "title": "EXPERTISE",
+    "categories": [
+      {
+        "id": "ai",
+        "title": "AI & NEURAL ARCHITECTURE",
+        "icon": "",
+        "skills": [
+          { "name": "Gemini AI", "symbol": "AI" },
+          { "name": "RAG Architecture", "symbol": "R" },
+          { "name": "Vector Search", "symbol": "V" },
+          { "name": "OpenAI API", "symbol": "AI" }
+        ]
+      },
+      {
+        "id": "backend",
+        "title": "SYSTEMS & BACK-END",
+        "icon": "",
+        "skills": [
+          { "name": "Python", "symbol": "Py" },
+          { "name": "Django", "symbol": "Dj" },
+          { "name": "Flask", "symbol": "Fl" },
+          { "name": "Supabase Auth", "symbol": "S" },
+          { "name": "Java", "symbol": "J" },
+          { "name": "JavaFX", "symbol": "FX" }
+        ]
+      },
+      {
+        "id": "frontend",
+        "title": "INTERFACE ENGINEERING",
+        "icon": "",
+        "skills": [
+          { "name": "Next.js 15", "symbol": "N" },
+          { "name": "React 19", "symbol": "⚛" },
+          { "name": "TypeScript", "symbol": "TS" },
+          { "name": "Angular", "symbol": "A" },
+          { "name": "Vanilla CSS", "symbol": "#" },
+          { "name": "CSS Modules", "symbol": "M" }
+        ]
+      },
+      {
+        "id": "data",
+        "title": "DATA & DATABASES",
+        "icon": "",
+        "skills": [
+          { "name": "PostgreSQL", "symbol": "SQL" },
+          { "name": "MySQL", "symbol": "My" },
+          { "name": "MongoDB", "symbol": "DB" },
+          { "name": "Supabase DB", "symbol": "S" },
+          { "name": "PgVector", "symbol": "V" }
+        ]
+      }
+    ]
+  },
+  "about": {
+    "title": "THE STUDIO",
+    "company": {
+      "name": "E-PEAK",
+      "tagline": "ENGINEERING PEAK PERFORMANCE",
+      "description": "E-PEAK is a specialized engineering studio dedicated to resolving complex technical bottlenecks through high-performance software and systems architecture. We blend mechanical precision with software agility to build infrastructure that scales."
+    },
+    "founderTitle": "THE FOUNDER",
+    "name": "Alejandro Viramontes",
+    "role": "Software & Mechanical Engineer",
+    "description": "Outside of engineering, I am a technical high-altitude climber, ultra-marathoner, and competitive marathon runner. When I'm not architecting systems, you'll find me conquering technical summits, lifting at the gym, or sharing my hybrid-athlete journey as a fitness presence on Instagram.",
+    "location": "Anaheim, CA / Aguascalientes, MX",
+    "location_label": "Location",
+    "citizenship": "Dual Citizen (USA & Mexico)",
+    "citizenship_label": "Work Auth",
+    "pillars": [
+      {
+        "id": "hybrid-engineer",
+        "title": "DUAL-DISCIPLINE LOGIC",
+        "subtitle": "Mechanical & Software Engineering",
+        "content": "My background in Mechanical Engineering and FDA-regulated Quality Assurance provides a unique lens for software development. I don't just write code; I architect systems with the same precision and structural integrity required for physical machinery, ensuring every line is built for reliability and scale."
+      },
+      {
+        "id": "experience",
+        "title": "PROVEN IMPACT",
+        "subtitle": "2+ Years of Solution-Driven Engineering",
+        "content": "With over two years of professional experience, I deliver functional software that fundamentally transforms business operations. From architecting AI automation at a leading technical agency to engineering specialized logistics for the pharmaceutical sector, my focus is on creating high-value solutions that solve real-world bottlenecks and drive immediate, measurable results."
+      },
+      {
+        "id": "credentials",
+        "title": "TECHNICAL PEDIGREE",
+        "subtitle": "Meta, IBM & Cisco Certified",
+        "content": "My technical capability is backed by specialized credentials in Full-Stack Development (Meta), DevOps and Cloud Architecture (IBM), and Network Engineering and Python (Cisco). From mastering Agile/Scrum methodologies to securing CCNA-level networking expertise, my background is built on continuous, industry-validated technical evolution."
+      }
+    ]
+  },
+  "footer": {
+    "contact_title": "LET'S CONNECT",
+    "email_label": "Email",
+    "linkedin_label": "LinkedIn",
+    "branding_title": "ENGINEERING STUDIO",
+    "company_name": "E-PEAK",
+    "copyright": "© {year} Alejandro Viramontes. All rights reserved.",
+    "back_to_top": "Back to Top"
+  },
+  "manifesto": {
+    "title": "THE PROMISE",
+    "statement": "Architecting precision software molded exactly to your challenges.",
+    "subtext": ""
+  },
+  "solutions": {
+    "items": [
+      {
+        "id": "automation",
+        "title": "AUTOMATE YOUR WORKFLOW",
+        "description": "Stop the busy work. Automate repetitive tasks so you can spend your time where it actually matters—growing your business."
+      },
+      {
+        "id": "visibility",
+        "title": "GAIN TOTAL CONTROL",
+        "description": "Connect your hardware and data to your phone, ensuring you always know exactly what is happening from any location."
+      },
+      {
+        "id": "growth",
+        "title": "SCALE WITHOUT LIMITS",
+        "description": "Build tools that handle your success smoothly, so you never have to worry about crashes or slowness as you grow."
+      },
+      {
+        "id": "quality",
+        "title": "SECURE ABSOLUTE RELIABILITY",
+        "description": "Prioritize direct engineering precision so you get a bug-free system that works right the first time, every time."
+      }
+    ]
+  },
+  "auth": {
+    "login_title": "Welcome Back",
+    "login_subtitle": "Enterprise Portal Access",
+    "register_title": "Initialize Project",
+    "register_subtitle": "Start your engineering journey",
+    "email_label": "Email Address",
+    "password_label": "Password",
+    "login_button": "LOGIN",
+    "register_button": "CREATE ACCOUNT",
+    "placeholder_name": "Your Full Name",
+    "placeholder_email": "engineer@example.com",
+    "no_account": "Don't have an account?",
+    "have_account": "Already have an account?",
+    "forgot_password_link": "Forgot password?",
+    "forgot_password_title": "Reset Password",
+    "forgot_password_subtitle": "Enter your email to receive a recovery link.",
+    "forgot_password_button": "SEND RESET LINK",
+    "forgot_password_success": "Reset link sent successfully.",
+    "back_to_login": "Back to login",
+    "verify_title": "Check Your Inbox",
+    "verify_subtitle": "We've sent a verification link to your email.",
+    "resend_button": "RESEND EMAIL",
+    "resend_cooldown": "Wait {seconds}s",
+    "error_heading": "System Access Denied",
+    "error_invalid": "Invalid email or password.",
+    "error_signup": "Initialization failed. Please try again.",
+    "error_email_exists": "This email is already registered. Please login instead.",
+    "validation": {
+      "email": "Valid engineering email format required.",
+      "password_length": "Min 8 characters required.",
+      "password_complexity": "Numbers & special characters required.",
+      "name_length": "Provide a valid identification name."
+    },
+    "password_strength": {
+      "weak": "WEAK",
+      "medium": "MEDIUM",
+      "strong": "SECURE"
+    },
+    "update_password_title": "Secure New Password",
+    "update_password_subtitle": "Re-establish your engineering portal access.",
+    "update_password_button": "UPDATE PASSWORD",
+    "update_password_success": "Access re-established. Redirecting..."
+  },
+  "sales": {
+    "wizard": {
+      "step1_title": "Modules",
+      "step1_subtitle": "Select required modules",
+      "step2_title": "Context",
+      "step2_subtitle": "Project details",
+      "step3_title": "Confirm",
+      "step3_subtitle": "Review and proceed",
+      "base_module": "Core Infrastructure (Required)",
+      "ai_module": "AI RAG Engine",
+      "iot_module": "IoT Automation",
+      "project_title_placeholder": "Project Title",
+      "project_desc_placeholder": "Briefly describe your challenge...",
+      "pricing_total": "Starting at",
+      "cta_proceed": "PROCEED",
+      "cta_back": "BACK",
+      "cta_finish": "INITIALIZE PROJECT"
+    }
+  },
+  "portal": {
+    "onboarding": {
+      "loading": "Setting up your environment...",
+      "success": "Onboarding complete. Welcome to your portal."
+    },
+    "nav": {
+      "dashboard": "Home",
+      "project": "Project Status",
+      "initialize": "Start Project",
+      "showcase": "Live Showcase",
+      "chat": "Support Chat",
+      "tickets": "Support Tickets",
+      "resources": "Resources",
+      "settings": "Settings",
+      "admin_console": "Admin Command Console"
+    },
+    "hub": {
+      "welcome_title": "ENGINEERING HUB",
+      "welcome_subtitle": "Access confirmed. Welcome to the Engineering Hub.",
+      "welcome_description": "Welcome to your high-performance engineering environment. From here, you can track your projects, architect new systems, or explore my live implementation showcase.",
+      "session_secured": "SESSION SECURED | ENCRYPTED LINK ACTIVE",
+      "card_project_title": "Project Status",
+      "card_project_desc": "Track your engineering projects, deployment health, and system integration progress.",
+      "card_project_cta": "VIEW STATUS",
+      "card_initialize_title": "Start Project",
+      "card_initialize_desc": "Configure technical requirements and strategic filters for your project using our engineering engine.",
+      "card_initialize_cta": "START",
+      "card_showcase_title": "Tech Showcase",
+      "card_showcase_desc": "Real-world cases with architecture diagrams and measurable results from recent deployments.",
+      "card_showcase_cta": "VIEW LIVE",
+      "card_settings_title": "System Settings",
+      "card_settings_desc": "Configure account preferences, language settings, and portal security protocols.",
+      "card_settings_cta": "CONFIGURE",
+      "summary_title": "COMMAND CENTER: PROJECT SUMMARY",
+      "status_label": "Status",
+      "next_milestone": "Next Milestone",
+      "estimated_date": "Estimated Date",
+      "pending_title": "PENDING ON YOUR PART",
+      "activity_title": "RECENT ACTIVITY",
+      "quick_jump_project": "View full timeline →",
+      "quick_jump_questions": "View pending questions →",
+      "quick_jump_details": "View engineering details →",
+      "empty_title": "LET'S START: YOUR ENGINEERING HUB",
+      "empty_desc": "You don't have any projects yet. Start your first high-performance system or explore our development capabilities.",
+      "orientation_desc": "You don't have any projects yet. This environment allows you to architect, validate, and monitor systems in a structured way.",
+      "empty_cta": "START PROJECT",
+      "empty_cta_subtitle": "Guided setup in less than 2 minutes",
+      "cta_reassurance": "You will receive technical validation before any development begins.",
+      "final_cta_subtitle": "You will receive technical validation before any development begins.",
+      "how_it_works": "How the system works",
+      "flow_title": "How your project flows",
+      "step_orientation_label": "ENGINEERING HUB",
+      "step_process_label": "METHODOLOGY",
+      "step_flow_label": "PROJECT FLOW",
+      "step_metrics_label": "RESULTS & METRICS",
+      "step_action_label": "DEPLOYMENT",
+      "flow": {
+        "step1": "Initial definition",
+        "step2": "Technical validation",
+        "step3": "Development & deployment"
+      },
+      "methodology": {
+        "step1_title": "Definition",
+        "step1_desc": "Define objectives, scope, and technical project requirements.",
+        "step2_title": "Validation",
+        "step2_desc": "Technical evaluation and initial roadmap adjustment before starting development.",
+        "step3_title": "Construction",
+        "step3_desc": "Iterative development with partial deliveries and continuous visibility.",
+        "step4_title": "Monitoring",
+        "step4_desc": "Progress tracking, system health, and deliverables from the dashboard."
+      },
+      "trust_anchor": "Engineering focused on performance, technical clarity, and measurable results.",
+      "view_showcase": "VIEW LIVE SHOWCASE",
+      "recent_messages": "COMMUNICATION CENTER",
+      "no_messages": "No new technical updates.",
+      "view_chat": "ENTER SUPPORT CHAT"
+    },
+    "dashboard_title": "Project Nexus",
+    "active_mission": "PROJECT",
+    "welcome": "Welcome back, {name}",
+    "status_health": "System Status",
+    "status_availability": "Availability",
+    "status_latency": "Latency",
+    "communication_title": "Communication",
+    "communication_brief": "The engineering team is currently focused on system architecture and integration core logic.",
+    "resources_title": "Technical Resources",
+    "open_tickets": "Open Ticket System",
+    "stepper": {
+      "Discovery": "Pending Approval",
+      "Architecture": "Architecture",
+      "Development": "Development",
+      "Integration": "Integration",
+      "Beta": "Beta Testing",
+      "Final Release": "Final Release"
+    },
+    "wizard": {
+      "header_title": "PROJECT INITIALIZATION",
+      "header_subtitle": "Define the technical requirements and strategic objectives of your project.",
+      "header_tag": "PROJECT ARCHITECTURE",
+      "categories": {
+        "systems": {
+          "title": "Web Systems",
+          "subtitle": "Custom Architecture",
+          "desc": "High-fidelity full-stack platforms and scalable MVPs.",
+          "teaser": "Building a system?"
+        },
+        "ai": {
+          "title": "AI Intelligence",
+          "subtitle": "Cognitive Automation",
+          "desc": "Intelligent agents and RAG-based knowledge workflows.",
+          "teaser": "Automate with AI?"
+        },
+        "growth": {
+          "title": "Growth Engine",
+          "subtitle": "Sales Architecture",
+          "desc": "High-conversion assets and technical performance funnels.",
+          "teaser": "Want to sell more?"
+        },
+        "flash": {
+          "title": "Tactical Fixes",
+          "subtitle": "Focused Repair",
+          "desc": "Rapid resolution of technical bugs and speed bottlenecks.",
+          "teaser": "Need something fast?"
+        },
+        "audit": {
+          "title": "Technical Audit",
+          "subtitle": "Diagnosis & Roadmap",
+          "desc": "Deep code analysis and strategic implementation plans.",
+          "teaser": "Not sure where to start?"
+        },
+        "support": {
+          "title": "Support Plans",
+          "subtitle": "Stable Operations",
+          "desc": "Continuity assurance and preventative technical maintenance.",
+          "teaser": "Looking for stability?"
+        }
+      },
+      "steps": {
+        "step1_title": "Service Selection",
+        "step1_subtitle": "Select the required service type. If unsure, select 'Diagnosis & Improvement' and I will guide you.",
+        "step2_title": "Plan Configuration",
+        "step2_subtitle": "Define your project's base scope",
+        "step3_title": "Technical Loadout",
+        "step3_subtitle": "Power up your project with additional assets",
+        "step4_title": "Business Intelligence",
+        "step4_subtitle": "Define objectives and KPIs",
+        "step5_title": "Start Confirmation",
+        "step5_subtitle": "Review architecture and working methodology",
+        "proceed_cta": "PROCEED →",
+        "back_cta": "← BACK",
+        "starting_at": "FROM",
+        "finish_cta": "CONFIRM FOR REVIEW"
+      },
+      "plans": {
+        "mvp_title": "MVP Development",
+        "mvp_desc": "Functional version focused on validation (Up to 3 core features).",
+        "mvp_features": ["Core Functionality", "2-3 Week Validation", "Scalable Database", "Cloud Deployment"],
+        "mvp_price": 1100,
+        "engine_title": "Enterprise System",
+        "engine_desc": "Modular full-stack solution (Up to 5 operational modules and integrations).",
+        "engine_features": ["Modular Architecture", "API Integrations", "Secure Payment Flows", "Administration Panel"],
+        "engine_price": 2100,
+        "reactor_title": "Enterprise Suite",
+        "reactor_desc": "Tailor-made scalable architecture. Personalized quote based on scope.",
+        "reactor_features": ["Multi-tenant SaaS", "AI Prototype Integration", "Infrastructure as Code", "Custom Roadmap"],
+        "reactor_price": 4000
+      },
+      "tactical": {
+        "quick_fix_title": "Bug Repair",
+        "quick_fix_desc": "Resolution of specific technical issues or minor bugs (24-72h).",
+        "quick_fix_price": 70,
+        "speed_boost_title": "Performance Tuning",
+        "speed_boost_desc": "Focused on speed and Web Vitals. Includes before/after comparative report.",
+        "speed_boost_price": 220,
+        "spark_landing_title": "Conversion Landing",
+        "spark_landing_desc": "Single-page asset with professional SEO and analytics setup.",
+        "spark_landing_price": 450,
+        "sales_funnel_title": "Sales Funnel Architecture",
+        "sales_funnel_desc": "Multi-step user journey tracking and technical funnel implementation.",
+        "sales_funnel_price": 850,
+        "ai_agent_title": "Custom AI Agent",
+        "ai_agent_desc": "RAG-based agent linked to your knowledge base. OpenAI/Claude APIs.",
+        "ai_agent_price": 650,
+        "workflow_auto_title": "AI Workflow Automation",
+        "workflow_auto_desc": "Autonomous technical scripts to optimize repetitive manual tasks.",
+        "workflow_auto_price": 400,
+        "technical_roadmap_title": "Execution Roadmap",
+        "technical_roadmap_desc": "Deep-dive architecture audit and structured phase-by-phase development plan.",
+        "technical_roadmap_price": 75,
+        "audit_discovery_title": "Idea Validation (Blueprint)",
+        "audit_discovery_desc": "45-60 min session to evaluate feasibility, suggest stack and estimate timelines.",
+        "audit_discovery_price": 25,
+        "audit_scan_title": "Quick Diagnostic (Tech Scan)",
+        "audit_scan_desc": "Express architecture and security review to catch critical risks early.",
+        "audit_scan_price": 35,
+        "security_audit_title": "Security Shield Pro",
+        "security_audit_desc": "Deep vulnerability scanning and infrastructure encryption audit.",
+        "security_audit_price": 450
+      },
+      "recurring": {
+        "base_title": "Base Support",
+        "base_desc": "Preventative maintenance, backups, and minor fixes. Includes up to 2 technical requests monthly.",
+        "base_price": 175,
+        "pro_title": "Professional Support",
+        "pro_desc": "Includes up to 5 monthly hours for technical adjustments accruable during the month. Additional time quoted separately.",
+        "pro_price": 300,
+        "priority_title": "VIP Support",
+        "priority_desc": "Includes up to 10 monthly hours of priority technical support and evolutionary adjustments.",
+        "priority_price": 475
+      },
+      "addons": {
+        "title": "Additional Assets",
+        "speed_title": "Speed Demon Acceleration",
+        "speed_desc": "Advanced tuning for priority loading in high-traffic systems.",
+        "speed_price": 200,
+        "security_title": "Advanced Security Audit",
+        "security_desc": "Deep analysis of architecture, encryption, and data redundancy.",
+        "security_price": 350,
+        "docs_title": "Technical Manual",
+        "docs_desc": "Complete technical documentation of the infrastructure and code.",
+        "docs_price": 250,
+        "support_30d_title": "Post-Delivery Support (30 days)",
+        "support_30d_desc": "Guarantee of minor adjustments and troubleshooting after launch.",
+        "support_30d_price": 125
+      },
+      "dynamic_addons": {
+        "systems": ["docs", "security", "support_30d", "prototype"],
+        "ai": ["vector_db", "monitoring", "api_gate"],
+        "growth": ["copywriting", "seo", "ab_testing"],
+        "flash": ["test_suite", "documentation", "speed"],
+        "audit": ["audit_report_lite", "docs", "security"],
+        "support": ["uptime", "priority", "security_pro"]
+      },
+      "addon_items": {
+        "docs": { "title": "Technical Manual", "desc": "Detailed architecture and codebase documentation.", "price": 250 },
+        "security": { "title": "Security Hardening", "desc": "Deep analysis and encryption implementation.", "price": 350 },
+        "support_30d": { "title": "30-Day Guarantee", "desc": "Technical support for minor adjustments post-launch.", "price": 125 },
+        "prototype": { "title": "UI Prototyping", "desc": "High-fidelity clickable mockup in Figma.", "price": 400 },
+        "vector_db": { "title": "Vector Intelligence", "desc": "Setup of specialized DB (Pinecone/Supabase) for RAG.", "price": 300 },
+        "monitoring": { "title": "Token Monitoring", "desc": "Cost control and hallucination guardrails setup.", "price": 150 },
+        "api_gate": { "title": "Secure AI Gateway", "desc": "Encrypted tunnel for safe API model communication.", "price": 250 },
+        "security_pro": { "title": "Active Shield", "desc": "Real-time vulnerability patching and system updates.", "price": 350 },
+        "audit_report_lite": { "title": "Executive Summary PDF", "desc": "Synthesis document with key findings and recommendations.", "price": 15 },
+        "test_suite": { "title": "Automated Testing", "desc": "Unit and integration tests for critical system parts.", "price": 300 },
+        "documentation": { "title": "Implementation Report", "desc": "PDF report detailing all changes and logic.", "price": 100 },
+        "speed": { "title": "Performance Proof", "desc": "Comparative metrics report before/after fix.", "price": 150 },
+        "seo": { "title": "Technical SEO Pack", "desc": "Schema markup, sitemaps, and indexing strategies.", "price": 450 },
+        "analytics": { "title": "Intelligence Suite", "desc": "G4, Hotjar, and custom conversion tracking.", "price": 200 },
+        "ab_testing": { "title": "A/B Infrastructure", "desc": "Technical setup for iterative funnel testing.", "price": 250 },
+        "copywriting": { "title": "Sales Copy", "desc": "Conversion-focused professional copywriting.", "price": 300 },
+        "roadmap_pro": { "title": "Priority Roadmap", "desc": "Iterative plan for the next 12 months.", "price": 200 },
+        "uptime": { "title": "24/7 Monitoring", "desc": "Custom dashboard with active pulse alerts.", "price": 150 },
+        "priority": { "title": "VIP Response", "desc": "Reduced response latency SLA (<4h).", "price": 250 },
+        "security_pro": { "title": "Active Hardening", "desc": "Real-time vulnerability patching & updates.", "price": 350 }
+      },
+      "dynamic_intelligence": {
+        "systems": {
+          "default": {
+            "objective": "Primary Engineering Goal",
+            "objective_placeholder": "e.g., Scaling to 100k concurrent users...",
+            "audience": "Primary User Personas",
+            "audience_placeholder": "e.g., Enterprise B2B customers...",
+            "benchmarks": "Industry Benchmarks (URLs)",
+            "benchmarks_placeholder": "Competitors or reference systems..."
+          }
+        },
+        "ai": {
+          "default": {
+            "objective": "AI Intelligence Purpose",
+            "objective_placeholder": "What should the agent help with?",
+            "benchmarks": "Knowledge Base Sources",
+            "benchmarks_placeholder": "Links to docs, FAQs, or sites...",
+            "audience": "Target Systems",
+            "audience_placeholder": "Where will this agent live? (Web, Slack...)"
+          }
+        },
+        "growth": {
+          "default": {
+            "objective": "Conversion Growth Goal",
+            "objective_placeholder": "Desired increase in leads or sales...",
+            "audience": "Ideal Customer Profile",
+            "audience_placeholder": "Target demographics or industry...",
+            "benchmarks": "High-Performance References",
+            "benchmarks_placeholder": "Funnels you want to replicate..."
+          }
+        },
+        "flash": {
+          "default": {
+            "objective": "Technical Problem Statement",
+            "objective_placeholder": "Detailed description of the bug or issue...",
+            "audience": "Affected Environment",
+            "audience_placeholder": "e.g., Production Admin Panel...",
+            "benchmarks": "System Context (GitHub/Sentry)",
+            "benchmarks_placeholder": "Links to error logs or issue reports..."
+          }
+        },
+        "audit": {
+          "default": {
+            "objective": "What do you want to validate or what technical problem do you have?",
+            "objective_placeholder": "e.g. Validate if my app idea is feasible with my budget...",
+            "audience": "Who's your ideal customer?",
+            "audience_placeholder": "e.g. Users looking to rent apartments...",
+            "benchmarks": "References (URLs)",
+            "benchmarks_placeholder": "Links to apps or sites you like or that are competitors..."
+          }
+        },
+        "support": {
+          "default": {
+            "objective": "Continuity Requirements",
+            "objective_placeholder": "Uptime goals and critical response needs...",
+            "audience": "Mission Stakeholders",
+            "audience_placeholder": "Who to alert and coordinate with?",
+            "benchmarks": "Current Health Status",
+            "benchmarks_placeholder": "Known system unstable points..."
+          }
+        }
+      },
+      "niches": {
+        "ai_title": "AI & Automation",
+        "saas_title": "Full-Stack SaaS MVP",
+        "b2b_title": "B2B Workflow Automation",
+        "ecom_title": "Performance E-commerce"
+      },
+      "reviews": {
+        "title": "Project Reports",
+        "stat_success": "Success Rate",
+        "stat_total": "Total Projects",
+        "report_1": "System uptime reached 99.9% after the architectural refactor.",
+        "report_2": "Integrated AI RAG engine reducing support load by 40%.",
+        "report_3": "Pixel-perfect conversion project exceeded all growth targets."
+      },
+      "fields": {
+        "project_type": "Project Type",
+        "tech_tools": "Tools & Technologies",
+        "tech_recommend": "Need Expert Recommendation",
+        "tech_other": "Other / Add Manually",
+        "deadline": "Project Deadline",
+        "start_date": "Desired Start Date",
+        "end_date": "Desired Final Delivery",
+        "comm_pref": "Sync Channel (Demos)",
+        "privacy_level": "Privacy Level",
+        "privacy_standard": "Standard (Portfolio)",
+        "privacy_nda": "Private (Strict NDA)",
+        "agreement_notice": "I confirm that I have read and accept the project protocols.",
+        "asset_upload": "Evaluation Assets (Wireframes, Brand)",
+        "asset_upload_desc": "Upload files or paste external links",
+        "asset_url_placeholder": "Links to Figma, Notion, or Drive...",
+        "repo_url": "Repository URL (Optional)"
+      },
+      "disclosure": {
+        "title": "PROJECT PROTOCOLS",
+        "subtitle": "ENGAGEMENT RULES & LEGAL FRAMEWORK",
+        "cat_1_title": "TECHNICAL OPERATIONS",
+        "cat_2_title": "LEGAL DEFENSE",
+        "cat_3_title": "ADVANCED ENGINEERING & ETHICS",
+        "rule_1_title": "SCOPE FREEZE",
+        "rule_1_desc": "Any modifications to the technical brief after project start will require a re-evaluation of the blueprint and budget.",
+        "rule_2_title": "UPLINK SYNC",
+        "rule_2_desc": "Progress reviews will be conducted exclusively via live Demos on the selected sync channel.",
+        "rule_3_title": "INFRASTRUCTURE ACCESS",
+        "rule_3_desc": "The client will provide necessary access keys (API Keys, Hosting, DB) for frictionless execution.",
+        "rule_4_title": "REVISION LIMIT",
+        "rule_4_desc": "Each milestone includes up to [2] rounds of revisions. Structural or functional changes outside the blueprint are new missions.",
+        "rule_5_title": "THIRD-PARTY COSTS",
+        "rule_5_desc": "Subscriptions to APIs, hosting, domains, or external services are the sole financial responsibility of the client.",
+        "rule_6_title": "PRODUCTION BOUNDARIES",
+        "rule_6_desc": "The developer is not responsible for system administration or maintenance post-delivery without a support contract.",
+        "rule_7_title": "RESPONSE PROTOCOL",
+        "rule_7_desc": "The client must respond to critical requests in <48h. Prolonged silence will pause the mission automatically.",
+        "rule_8_title": "REACTIVATION FEE",
+        "rule_8_desc": "Silence exceeding [15] days will result in project archiving. Reactivation applies a 15% re-onboarding fee.",
+        "rule_9_title": "OWNERSHIP & PORTFOLIO",
+        "rule_9_desc": "Rights transfer upon final payment. The developer retains a perpetual right to display the project in their professional portfolio.",
+        "rule_10_title": "LIMITATION OF LIABILITY",
+        "rule_10_desc": "Maximum liability is capped at the paid value of the project. No liability for lost profits or indirect damages.",
+        "rule_11_title": "CONTENT INDEMNITY",
+        "rule_11_desc": "The client guarantees provided material does not violate third-party copyrights and assumes full legal responsibility.",
+        "rule_12_title": "PROFESSIONAL STATUS",
+        "rule_12_desc": "The relationship is that of an independent contractor. No employment, agency, or partnership exists.",
+        "rule_13_title": "FORCE MAJEURE",
+        "rule_13_desc": "No liability for delays caused by global infrastructure failures (SaaS, Vercel, Supabase, OpenAI).",
+        "rule_14_title": "LOCAL JURISDICTION",
+        "rule_14_desc": "Any legal dispute or mediation will be resolved under the laws and courts of the developer's residence.",
+        "rule_15_title": "REJECTED CONCEPTS",
+        "rule_15_desc": "Ideas, designs, or code presented during the blueprint phase but not selected remain the property of the developer.",
+        "rule_16_title": "TECHNICAL DEBT WAIVER",
+        "rule_16_desc": "If the client requests accelerated delivery sacrificing architecture, the developer is exonerated from future optimizations.",
+        "rule_17_title": "ZERO-DAY SECURITY",
+        "rule_17_desc": "Standard measures are implemented; no responsibility for breaches caused by unknown third-party vulnerabilities.",
+        "rule_18_title": "ACADEMIC INTEGRITY",
+        "rule_18_desc": "The client confirms the project is for professional purposes and does not violate university academic integrity policies.",
+        "rule_19_title": "TECHNICAL STATUS",
+        "rule_19_desc": "The developer communicates their specialization status and the client accepts the work based on the visual portfolio.",
+        "rule_20_title": "TERMINATION RIGHT",
+        "rule_20_desc": "The developer may cancel the project in cases of harassment or abuse, charging for proportional progress made."
+      },
+      "blueprints": {
+        "systems": {
+          "types": ["SaaS Product", "Admin Dashboard", "Marketplace", "Internal CRM", "Custom System"],
+          "stacks": [
+            {
+              "label": "FRAMEWORKS & CORE",
+              "items": [
+                { "name": "Next.js 15", "symbol": "N" },
+                { "name": "React 19", "symbol": "⚛" },
+                { "name": "TypeScript", "symbol": "TS" }
+              ]
+            },
+            {
+              "label": "CLOUD & DATA",
+              "items": [
+                { "name": "Supabase", "symbol": "S" },
+                { "name": "PostgreSQL", "symbol": "SQL" },
+                { "name": "Prisma", "symbol": "P" },
+                { "name": "Drizzle ORM", "symbol": "D" }
+              ]
+            },
+            {
+              "label": "ECOSYSTEM & OPS",
+              "items": [
+                { "name": "Stripe", "symbol": "$" },
+                { "name": "Clerk / Auth.js", "symbol": "L" },
+                { "name": "Vercel", "symbol": "▲" },
+                { "name": "Docker", "symbol": "Dk" }
+              ]
+            }
+          ]
+        },
+        "ai": {
+          "types": ["AI Assistant (RAG)", "Process Automation", "Data Intelligence", "Voice Agent", "AI Dashboard"],
+          "stacks": [
+            {
+              "label": "MODELS & BRAIN",
+              "items": [
+                { "name": "OpenAI GPT-4", "symbol": "AI" },
+                { "name": "Anthropic Claude", "symbol": "An" },
+                { "name": "Replicate", "symbol": "R" }
+              ]
+            },
+            {
+              "label": "ORCHESTRATION",
+              "items": [
+                { "name": "LangChain", "symbol": "Lc" },
+                { "name": "LlamaIndex", "symbol": "Li" },
+                { "name": "Flowise", "symbol": "Fw" }
+              ]
+            },
+            {
+              "label": "VECTOR & AUTO",
+              "items": [
+                { "name": "Pinecone", "symbol": "Pc" },
+                { "name": "Supabase Vector", "symbol": "V" },
+                { "name": "n8n / Make", "symbol": "8" }
+              ]
+            }
+          ]
+        },
+        "growth": {
+          "types": ["Sales Landing Page", "Marketing Funnel", "E-commerce MVP", "Marketing Tech", "SEO Booster"],
+          "stacks": [
+            {
+              "label": "UX & MOTION",
+              "items": [
+                { "name": "Tailwind CSS", "symbol": "T" },
+                { "name": "Framer Motion", "symbol": "Fm" },
+                { "name": "GSAP", "symbol": "G" }
+              ]
+            },
+            {
+              "label": "INSIGHTS & SALES",
+              "items": [
+                { "name": "GA4 Analytics", "symbol": "G4" },
+                { "name": "PostHog", "symbol": "H" },
+                { "name": "Hotjar", "symbol": "Hj" },
+                { "name": "Stripe", "symbol": "$" }
+              ]
+            }
+          ]
+        },
+        "flash": {
+          "types": ["Site Speed Optimization", "Bug Squashing", "UI Polish", "Mobile Responsiveness"],
+          "stacks": [
+            {
+              "label": "DIAGNOSIS & FIX",
+              "items": [
+                { "name": "Lighthouse", "symbol": "L" },
+                { "name": "Sentry", "symbol": "Se" },
+                { "name": "Chrome DevTools", "symbol": "D" },
+                { "name": "PostHog", "symbol": "H" }
+              ]
+            }
+          ]
+        },
+        "audit": {
+          "types": ["Feasibility Study", "Code Review", "Security Audit", "Execution Roadmap"],
+          "stacks": [
+            {
+              "label": "VALIDATION TOOLS",
+              "items": [
+                { "name": "Zod / TypeScript", "symbol": "Z" },
+                { "name": "Jest / Playwright", "symbol": "Pl" },
+                { "name": "SonarQube", "symbol": "Sq" }
+              ]
+            }
+          ]
+        },
+        "support": {
+          "types": ["Continuous Maintenance", "Feature Updates", "Technical Security", "Cloud Optimization"],
+          "stacks": [
+            {
+              "label": "MONITOR & SUPPORT",
+              "items": [
+                { "name": "BetterStack", "symbol": "B" },
+                { "name": "Datadog", "symbol": "Dd" },
+                { "name": "Intercom / Crisp", "symbol": "Cr" }
+              ]
+            }
+          ]
+        }
+      },
+      "comm_options": {
+        "zoom": "Zoom Video",
+        "google_meet": "Google Meet",
+        "discord": "Discord Demo",
+        "slack": "Slack Workspace"
+      },
+      "scope_note": "Any additional functionality outside the defined scope is quoted separately.",
+      "trust": {
+        "title": "Why trust:",
+        "exp": "✔ Real full-stack development experience",
+        "perf": "✔ Focus on performance and technical clarity",
+        "comms": "✔ Direct communication and defined timelines"
+      },
+      "tabs": {
+        "briefing": "Technical Brief",
+        "blueprint": "Blueprint",
+        "uplink": "Operations",
+        "support": "Support",
+        "protocols": "Protocols"
+      }
+    },
+    "support": {
+      "title": "COMMAND CENTER: SUPPORT",
+      "subtitle": "Knowledge Base & Direct Engineering Support",
+      "faq_title": "TECHNICAL KNOWLEDGE BASE",
+      "faq_search_placeholder": "Search technical documentation...",
+      "chat_title": "ENGINEERING SUPPORT TERMINAL",
+      "chat_subtitle": "General questions & strategic consultation",
+      "categories": {
+        "all": "All",
+        "getting_started": "Getting Started",
+        "technical": "Technical",
+        "billing": "Billing",
+        "security": "Security"
+      },
+      "no_faq_results": "No technical documentation found for this query.",
+      "contact_prompt": "Still need assistance? Open a direct terminal link."
+    },
+    "showcase_items": {
+      "title": "ENGINEERING SHOWCASE",
+      "subtitle": "Live Implementation of High-Performance Breakthroughs",
+      "items": {
+        "rag": {
+          "title": "AI RAG PIPELINE",
+          "intro": "A high-performance vector retrieval-augmented generation engine designed for low-latency cognitive automation.",
+          "tags": ["AI", "Vector DB", "LLM"],
+          "cta": "ENTER IMPLEMENTATION"
+        },
+        "iot": {
+          "title": "INDUSTRIAL IOT GRID",
+          "intro": "High-concurrency data ingestion pipeline processing 10k+ events/sec with reactive real-time monitoring.",
+          "tags": ["IoT", "Edge", "Rust"],
+          "cta": "ENTER IMPLEMENTATION"
+        },
+        "neural": {
+          "title": "NEURAL MESH HUB",
+          "intro": "Complex data visualization system using 3D spatial relationship mapping for multi-dimensional analytics.",
+          "tags": ["3D", "WebGL", "Data"],
+          "cta": "ENTER IMPLEMENTATION"
+        }
+      }
+    }
+  },
+  "engine": {
+    "title": "THE ENGINE",
+    "subtitle": "Architect Your Next High-Performance Breakthrough",
+    "description": "Stop guessing and start engineering. Configure your custom module stack and get immediate system estimates. Precision-built infrastructure for AI automation, IoT, and high-concurrency workflows.",
+    "cta": "INITIALIZE PROJECT"
+  }
+}

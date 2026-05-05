@@ -1,0 +1,77 @@
+.backgroundWrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.imageWrapper {
+  position: absolute;
+  width: 650px;
+  height: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  will-change: transform, opacity;
+}
+
+.heroImage {
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+  object-fit: contain;
+  user-select: none;
+  pointer-events: none;
+  animation:
+    pulse 50s ease-in-out infinite,
+    continuous-rotate 510s linear infinite;
+}
+
+@keyframes pulse {
+
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.5);
+  }
+}
+
+@keyframes continuous-rotate {
+  from {
+    rotate: 0deg;
+  }
+
+  to {
+    rotate: 360deg;
+  }
+}
+
+.ambientGlowTop {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  top: 100px;
+  right: -50px;
+  background: radial-gradient(circle, rgba(255, 120, 0, 0.25) 0%, rgba(255, 80, 0, 0) 70%);
+  filter: blur(80px);
+  z-index: -2;
+}
+
+@media (max-width: 1024px) {
+  .ambientGlowTop {
+    width: 400px;
+    height: 400px;
+  }
+
+  .imageWrapper {
+    width: 400px;
+    height: 400px;
+  }
+}

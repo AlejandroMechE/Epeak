@@ -1,0 +1,810 @@
+{
+  "navigation": {
+    "home": "Inicio",
+    "showcase": "Casos de Estudio",
+    "expertise": "Experticia",
+    "about": "Acerca de",
+    "contact": "Contacto",
+    "portal": "Portal",
+    "logout": "Cerrar Sesión",
+    "sign_in": "Ingresar",
+    "get_started": "Comenzar"
+  },
+  "hero": {
+    "greeting": "RESOLVIENDO TUS DESAFÍOS MEDIANTE SOFTWARE DE PRECISIÓN",
+    "title_part1": "INGENIERÍA",
+    "title_part2": "DE ALTO",
+    "title_part3": "RENDIMIENTO",
+    "subtitle": "Automatiza flujos de trabajo complejos y construye software confiable que escala con el éxito empresarial. Especialista en soluciones de alto rendimiento diseñadas con precisión.",
+    "cta": "VER CASOS DE ESTUDIO"
+  },
+  "experience": {
+    "title": "CASOS DE ESTUDIO",
+    "roles": [
+      {
+        "id": "quantum-ledger",
+        "title": "SISTEMAS DE LIBRO MAYOR DISTRIBUIDO",
+        "company": "Ingeniero Principal de Software",
+        "description": "Ingeniería de sistemas financieros de alta concurrencia con enfoque en registros inmutables y procesamiento en tiempo real en entornos de nube escalables.",
+        "tags": ["Python", "Docker", "GCP"]
+      },
+      {
+        "id": "neural-analytics",
+        "title": "INFRAESTRUCTURA DE DATOS IA",
+        "company": "Arquitecto de Infraestructura",
+        "description": "Arquitectura estratégica de pipelines de datos y unidades de procesamiento neuronal, optimizando el rendimiento analítico para despliegues empresariales.",
+        "tags": ["React", "AWS", "Python"]
+      },
+      {
+        "id": "antaro-use",
+        "title": "PLATAFORMAS DE VISUALIZACIÓN",
+        "company": "Arquitecto Técnico Principal",
+        "description": "Desarrollo de algoritmos avanzados de visualización de datos y tableros interactivos, traduciendo datos complejos en inteligencia de negocios accionable.",
+        "tags": ["AWS", "TypeScript", "D3.js"]
+      }
+    ]
+  },
+  "common": {
+    "view_case_study": "VER CASO DE ÉXITO"
+  },
+  "expertise": {
+    "title": "EXPERTICIA",
+    "categories": [
+      {
+        "id": "ai",
+        "title": "IA Y ARQUITECTURA NEURAL",
+        "icon": "",
+        "skills": [
+          { "name": "IA Gemini", "symbol": "AI" },
+          { "name": "Arquitectura RAG", "symbol": "R" },
+          { "name": "Búsqueda Vectorial", "symbol": "V" },
+          { "name": "OpenAI API", "symbol": "AI" }
+        ]
+      },
+      {
+        "id": "backend",
+        "title": "SISTEMAS Y BACK-END",
+        "icon": "",
+        "skills": [
+          { "name": "Python", "symbol": "Py" },
+          { "name": "Django", "symbol": "Dj" },
+          { "name": "Flask", "symbol": "Fl" },
+          { "name": "Supabase Auth", "symbol": "S" },
+          { "name": "Java", "symbol": "J" },
+          { "name": "JavaFX", "symbol": "FX" }
+        ]
+      },
+      {
+        "id": "frontend",
+        "title": "INGENIERÍA DE INTERFACES",
+        "icon": "⚛️",
+        "skills": [
+          { "name": "Next.js 15", "symbol": "N" },
+          { "name": "React 19", "symbol": "⚛" },
+          { "name": "TypeScript", "symbol": "TS" },
+          { "name": "Angular", "symbol": "A" },
+          { "name": "Vanilla CSS", "symbol": "#" },
+          { "name": "CSS Modules", "symbol": "M" }
+        ]
+      },
+      {
+        "id": "data",
+        "title": "DATOS Y BASES DE DATOS",
+        "icon": "",
+        "skills": [
+          { "name": "PostgreSQL", "symbol": "SQL" },
+          { "name": "MySQL", "symbol": "My" },
+          { "name": "MongoDB", "symbol": "DB" },
+          { "name": "Supabase DB", "symbol": "S" },
+          { "name": "PgVector", "symbol": "V" }
+        ]
+      }
+    ]
+  },
+  "about": {
+    "title": "EL ESTUDIO",
+    "company": {
+      "name": "E-PEAK",
+      "tagline": "INGENIERÍA DE ALTO RENDIMIENTO",
+      "description": "E-PEAK es un estudio técnico especializado en diseñar arquitecturas de sistemas de alto rendimiento y resolver los cuellos de botella críticos que limitan el crecimiento empresarial. Combinamos precisión mecánica con agilidad de software para construir infraestructura escalable."
+    },
+    "founderTitle": "EL FUNDADOR",
+    "name": "Alejandro Viramontes",
+    "role": "Ingeniero de Software y Mecánico",
+    "description": "Fuera de la ingeniería, soy un escalador técnico de alta montaña, ultra-maratonista y corredor competitivo de maratón. Cuando no estoy diseñando sistemas, me encontrarás conquistando cimas técnicas, entrenando en el gimnasio o compartiendo mi estilo de vida como atleta híbrido e influencer en Instagram.",
+    "location": "Anaheim, CA / Aguascalientes, MX",
+    "location_label": "Ubicación",
+    "citizenship": "Doble Ciudadanía (EUA y México)",
+    "citizenship_label": "Permiso de Trabajo",
+    "pillars": [
+      {
+        "id": "hybrid-engineer",
+        "title": "LÓGICA DISCIPLINARIA DUAL",
+        "subtitle": "Ingeniería Mecánica y de Software",
+        "content": "Mi formación en Ingeniería Mecánica y el Aseguramiento de Calidad regulado por la FDA aporta una perspectiva única al desarrollo de software. No solo escribo código; arquitecto sistemas con la misma precisión e integridad estructural requerida para maquinaria física, asegurando que cada línea esté construida para la fiabilidad y la escala."
+      },
+      {
+        "id": "experience",
+        "title": "IMPACTO COMPROBADO",
+        "subtitle": "Más de 2 años entregando soluciones",
+        "content": "Con más de dos años de trayectoria profesional, entrego software funcional que transforma fundamentalmente las operaciones empresariales. Desde la arquitectura de automatización con IA en una agencia líder hasta la ingeniería de logística para el sector farmacéutico, mi enfoque es crear soluciones de alto valor que resuelven cuellos de botella reales."
+      },
+      {
+        "id": "credentials",
+        "title": "PEDIGRÍ TÉCNICO",
+        "subtitle": "Certificado por Meta, IBM y Cisco",
+        "content": "Mi capacidad técnica está respaldada por credenciales especializadas en Desarrollo Full-Stack (Meta), DevOps y Arquitectura Cloud (IBM), e Ingeniería de Redes y Python (Cisco). Desde dominar metodologías Agile/Scrum hasta asegurar experiencia en redes a nivel CCNA, mi trayectoria se basa en una evolución técnica continua validada por la industria."
+      }
+    ]
+  },
+  "footer": {
+    "contact_title": "CONÉCTATE",
+    "email_label": "Email",
+    "linkedin_label": "LinkedIn",
+    "branding_title": "ESTUDIO DE INGENIERÍA",
+    "company_name": "E-PEAK",
+    "copyright": "© {year} Alejandro Viramontes. Todos los derechos reservados.",
+    "back_to_top": "Volver Arriba"
+  },
+  "manifesto": {
+    "title": "LA PROMESA",
+    "statement": "Arquitectura de software de precisión moldeada exactamente a tus desafíos.",
+    "subtext": ""
+  },
+  "solutions": {
+    "items": [
+      {
+        "id": "automation",
+        "title": "ALCANZA RESULTADOS DINÁMICOS",
+        "description": "Detén el trabajo pesado. Automatiza tareas repetitivas para que puedas dedicar tu tiempo a lo que realmente importa: hacer crecer tu negocio."
+      },
+      {
+        "id": "visibility",
+        "title": "OBTÉN CONTROL TOTAL",
+        "description": "Conecta tu hardware y datos a tu teléfono, asegurándote de saber exactamente qué está pasando desde cualquier lugar."
+      },
+      {
+        "id": "growth",
+        "title": "ESCALA SIN LÍMITES",
+        "description": "Construye herramientas que manejen tu éxito sin problemas, para que nunca tengas que preocuparte por caídas o lentitud mientras escalas."
+      },
+      {
+        "id": "quality",
+        "title": "ASEGURA CONFIABILIDAD ABSOLUTA",
+        "description": "Prioriza la precisión de ingeniería directa para que obtengas un sistema sin errores que funcione bien desde la primera vez, siempre."
+      }
+    ]
+  },
+  "auth": {
+    "login_title": "Bienvenido de Nuevo",
+    "login_subtitle": "Acceso al Portal Empresarial",
+    "register_title": "Inicializar Proyecto",
+    "register_subtitle": "Comienza tu trayectoria de ingeniería",
+    "email_label": "Correo Electrónico",
+    "password_label": "Contraseña",
+    "login_button": "INICIAR SESIÓN",
+    "register_button": "CREAR CUENTA",
+    "placeholder_name": "Tu Nombre Completo",
+    "placeholder_email": "ingeniero@ejemplo.com",
+    "no_account": "¿No tienes una cuenta?",
+    "have_account": "¿Ya tienes una cuenta?",
+    "forgot_password_link": "¿Olvidaste tu contraseña?",
+    "forgot_password_title": "Restablecer Contraseña",
+    "forgot_password_subtitle": "Ingresa tu email para recibir un enlace de recuperación.",
+    "forgot_password_button": "ENVIAR ENLACE",
+    "forgot_password_success": "Enlace enviado exitosamente.",
+    "back_to_login": "Volver al inicio",
+    "verify_title": "Revisa tu Bandeja",
+    "verify_subtitle": "Hemos enviado un enlace de verificación a tu email.",
+    "resend_button": "REENVIAR EMAIL",
+    "resend_cooldown": "Espera {seconds}s",
+    "error_heading": "Acceso Denegado",
+    "error_invalid": "Email o contraseña inválida.",
+    "error_signup": "Fallo en la inicialización. Intenta de nuevo.",
+    "error_email_exists": "Este correo electrónico ya está registrado. Intenta iniciar sesión.",
+    "validation": {
+      "email": "Se requiere un formato de email de ingeniería válido.",
+      "password_length": "Se requieren mín. 8 caracteres.",
+      "password_complexity": "Se requieren números y caracteres especiales.",
+      "name_length": "Proporciona un nombre de identificación válido."
+    },
+    "password_strength": {
+      "weak": "DÉBIL",
+      "medium": "MEDIO",
+      "strong": "SEGURO"
+    },
+    "update_password_title": "Asegurar Nueva Contraseña",
+    "update_password_subtitle": "Restablece tu acceso al portal de ingeniería.",
+    "update_password_button": "ACTUALIZAR CONTRASEÑA",
+    "update_password_success": "Acceso restablecido. Redirigiendo..."
+  },
+  "sales": {
+    "wizard": {
+      "step1_title": "Módulos",
+      "step1_subtitle": "Selecciona los módulos requeridos",
+      "step2_title": "Contexto",
+      "step2_subtitle": "Detalles del proyecto",
+      "step3_title": "Confirmar",
+      "step3_subtitle": "Revisar y proceder",
+      "base_module": "Infraestructura Base (Requerido)",
+      "ai_module": "Motor de IA RAG",
+      "iot_module": "Automatización IoT",
+      "project_title_placeholder": "Título del Proyecto",
+      "project_desc_placeholder": "Describe brevemente tu desafío...",
+      "pricing_total": "Desde",
+      "cta_proceed": "PROCEDER",
+      "cta_back": "ATRÁS",
+      "cta_finish": "INICIALIZAR PROYECTO"
+    }
+  },
+  "portal": {
+    "onboarding": {
+      "loading": "Configurando tu entorno...",
+      "success": "Onboarding completo. Bienvenido a tu portal."
+    },
+    "nav": {
+      "dashboard": "Inicio",
+      "project": "Estado del Proyecto",
+      "initialize": "Iniciar Proyecto",
+      "showcase": "Showcase en Vivo",
+      "chat": "Chat de Soporte",
+      "tickets": "Soporte Técnico",
+      "resources": "Recursos",
+      "settings": "Ajustes",
+      "admin_console": "Consola de Mando Admin"
+    },
+    "hub": {
+      "welcome_title": "HUB DE INGENIERÍA",
+      "welcome_subtitle": "Acceso confirmado. Bienvenido al Hub de Ingeniería.",
+      "welcome_description": "Bienvenido a tu entorno de ingeniería de alto rendimiento. Desde aquí, puedes rastrear tus proyectos, diseñar nuevos sistemas o explorar mi showcase de implementación en vivo.",
+      "session_secured": "SESIÓN ASEGURADA | ENLACE ENCRIPTADO ACTIVO",
+      "card_project_title": "Estado del Proyecto",
+      "card_project_desc": "Rastrea tus proyectos de ingeniería, la salud del despliegue y el progreso de integración del sistema.",
+      "card_project_cta": "VER ESTADO",
+      "card_initialize_title": "Iniciar Proyecto",
+      "card_initialize_desc": "Configura los requerimientos técnicos y objetivos del proyecto desde cero utilizando nuestro motor de módulos.",
+      "card_initialize_cta": "INICIAR",
+      "card_showcase_title": "Showcase Técnico",
+      "card_showcase_desc": "Casos reales con arquitectura y resultados obtenidos en implementaciones recientes.",
+      "card_showcase_cta": "VER EN VIVO",
+      "card_settings_title": "Ajustes del Sistema",
+      "card_settings_desc": "Configuración de cuenta, idioma y preferencias de seguridad del portal.",
+      "card_settings_cta": "CONFIGURAR",
+      "summary_title": "CENTRO DE COMANDO: RESUMEN DEL PROYECTO",
+      "status_label": "Estado",
+      "next_milestone": "Próximo Hito",
+      "estimated_date": "Fecha Estimada",
+      "pending_title": "PENDIENTE DE TU PARTE",
+      "activity_title": "ÚLTIMA ACTIVIDAD",
+      "quick_jump_project": "Ver timeline completo →",
+      "quick_jump_questions": "Ver preguntas pendientes →",
+      "quick_jump_details": "Ver detalles de ingeniería →",
+      "empty_title": "COMENCEMOS: TU CENTRO DE INGENIERÍA",
+      "empty_desc": "Aún no tienes proyectos. Inicia tu primer sistema de alto rendimiento o explora las capacidades de nuestra plataforma de desarrollo.",
+      "orientation_desc": "Aún no tienes proyectos. Este entorno te permite diseñar, validar y monitorear sistemas de forma estructurada.",
+      "empty_cta": "INICIAR PROYECTO",
+      "empty_cta_subtitle": "Configuración guiada en menos de 2 minutos",
+      "cta_reassurance": "Recibirás una validación técnica antes de iniciar cualquier desarrollo.",
+      "final_cta_subtitle": "Recibirás validación técnica antes de iniciar cualquier desarrollo.",
+      "how_it_works": "Así funciona el sistema",
+      "flow_title": "Así fluye tu proyecto",
+      "step_orientation_label": "CENTRO DE INGENIERÍA",
+      "step_process_label": "METODOLOGÍA",
+      "step_flow_label": "FLUJO DEL PROYECTO",
+      "step_metrics_label": "RESULTADOS Y MÉTRICAS",
+      "step_action_label": "DESPLIEGUE",
+      "flow": {
+        "step1": "Definición inicial",
+        "step2": "Validación técnica",
+        "step3": "Desarrollo y despliegue"
+      },
+      "methodology": {
+        "step1_title": "Definición",
+        "step1_desc": "Defines objetivos, alcance y requerimientos técnicos del proyecto.",
+        "step2_title": "Validación",
+        "step2_desc": "Evaluación técnica y ajuste del roadmap inicial antes de iniciar desarrollo.",
+        "step3_title": "Construcción",
+        "step3_desc": "Desarrollo iterativo con entregas parciales y visibilidad continua.",
+        "step4_title": "Monitoreo",
+        "step4_desc": "Seguimiento de progreso, estado del sistema y entregables desde el dashboard."
+      },
+      "trust_anchor": "Ingeniería enfocada en rendimiento, claridad técnica y resultados medibles.",
+      "view_showcase": "VER SHOWCASE EN VIVO",
+      "recent_messages": "CENTRO DE COMUNICACIÓN",
+      "no_messages": "No hay nuevas actualizaciones técnicas.",
+      "view_chat": "INGRESAR AL CHAT DE SOPORTE"
+    },
+    "dashboard_title": "Nexus del Proyecto",
+    "active_mission": "PROYECTO",
+    "welcome": "Bienvenido de nuevo, {name}",
+    "status_health": "Estado del Sistema",
+    "status_availability": "Disponibilidad",
+    "status_latency": "Latencia",
+    "communication_title": "Comunicación",
+    "communication_brief": "El equipo de ingeniería está enfocado actualmente en la arquitectura del sistema y la lógica central de integración.",
+    "resources_title": "Recursos Técnicos",
+    "open_tickets": "Abrir Sistema de Tickets",
+    "stepper": {
+      "Discovery": "Pendiente de Aprobación",
+      "Architecture": "Arquitectura",
+      "Development": "Desarrollo",
+      "Integration": "Integración",
+      "Beta": "Pruebas Beta",
+      "Final Release": "Lanzamiento Final"
+    },
+    "wizard": {
+      "header_title": "INICIALIZACIÓN DE PROYECTO",
+      "header_subtitle": "Defina los requerimientos técnicos y objetivos estratégicos de su proyecto.",
+      "header_tag": "ARQUITECTURA DEL PROYECTO",
+      "categories": {
+        "systems": {
+          "title": "Sistemas Web",
+          "subtitle": "Arquitectura a Medida",
+          "desc": "Plataformas full-stack de alta fidelidad y MVPs escalables.",
+          "teaser": "¿Construyendo un sistema?"
+        },
+        "ai": {
+          "title": "Inteligencia IA",
+          "subtitle": "Automatización Cognitiva",
+          "desc": "Agentes inteligentes y flujos de conocimiento basados en RAG.",
+          "teaser": "¿Automatizar con IA?"
+        },
+        "growth": {
+          "title": "Motor de Crecimiento",
+          "subtitle": "Arquitectura de Ventas",
+          "desc": "Activos de alta conversión y funnels de rendimiento técnico.",
+          "teaser": "¿Quieres vender más?"
+        },
+        "flash": {
+          "title": "Fixes Tácticos",
+          "subtitle": "Reparación Focalizada",
+          "desc": "Resolución rápida de bugs técnicos y cuellos de botella.",
+          "teaser": "¿Necesitas algo rápido?"
+        },
+        "audit": {
+          "title": "Auditoría Técnica",
+          "subtitle": "Diagnóstico y Roadmap",
+          "desc": "Análisis profundo de código y planes estratégicos de ejecución.",
+          "teaser": "¿No sabes por dónde empezar?"
+        },
+        "support": {
+          "title": "Planes de Soporte",
+          "subtitle": "Operaciones Estables",
+          "desc": "Garantía de continuidad y mantenimiento técnico preventivo.",
+          "teaser": "¿Buscas estabilidad?"
+        }
+      },
+      "steps": {
+        "step1_title": "Selección de Servicios",
+        "step1_subtitle": "Seleccione el tipo de servicio requerido. Si no está seguro, seleccione 'Diagnóstico y Mejora' y le guiaré.",
+        "step2_title": "Configuración de Plan",
+        "step2_subtitle": "Defina el alcance base de su proyecto",
+        "step3_title": "Carga Técnica",
+        "step3_subtitle": "Potencie su proyecto con activos adicionales",
+        "step4_title": "Inteligencia de Negocio",
+        "step4_subtitle": "Defina objetivos y KPIs",
+        "step5_title": "Confirmación de Inicio",
+        "step5_subtitle": "Revise la arquitectura y metodología de trabajo",
+        "proceed_cta": "CONTINUAR →",
+        "back_cta": "← VOLVER",
+        "starting_at": "DESDE",
+        "finish_cta": "CONFIRMAR PARA REVISIÓN"
+      },
+      "plans": {
+        "mvp_title": "Desarrollo MVP",
+        "mvp_desc": "Versión funcional enfocada en validación (Hasta 3 funcionalidades core).",
+        "mvp_features": ["Funcionalidad Core", "Validación en 2-3 semanas", "Base de Datos Escalable", "Despliegue en Cloud"],
+        "mvp_price": 21900,
+        "engine_title": "Sistema Empresarial",
+        "engine_desc": "Solución full-stack modular (Hasta 5 módulos operativos e integraciones).",
+        "engine_features": ["Arquitectura Modular", "Integraciones API", "Flujos de Pago", "Panel de Administración"],
+        "engine_price": 41900,
+        "reactor_title": "Enterprise Suite",
+        "reactor_desc": "Arquitectura escalable a medida. Cotización personalizada según alcance.",
+        "reactor_features": ["SaaS Multi-tenant", "IA Prototipo", "Infraestructura como Código", "Custom Roadmap"],
+        "reactor_price": 79900
+      },
+      "tactical": {
+        "quick_fix_title": "Reparación de Bug",
+        "quick_fix_desc": "Resolución de problemas técnicos específicos o bugs menores (24-72h).",
+        "quick_fix_price": 1400,
+        "speed_boost_title": "Optimización de Rendimiento",
+        "speed_boost_desc": "Optimización de velocidad y Web Vitals. Incluye reporte comparativo antes/después.",
+        "speed_boost_price": 4400,
+        "spark_landing_title": "Landing de Conversión",
+        "spark_landing_desc": "Activo de una sola página con SEO profesional y configuración de analíticas.",
+        "spark_landing_price": 9000,
+        "sales_funnel_title": "Arquitectura de Funnel de Ventas",
+        "sales_funnel_desc": "Implementación técnica de flujos de usuario y tracking de conversión.",
+        "sales_funnel_price": 17000,
+        "ai_agent_title": "Agente IA Personalizado",
+        "ai_agent_desc": "Agente basado en RAG conectado a tu base de conocimientos. APIs OpenAI/Claude.",
+        "ai_agent_price": 13000,
+        "workflow_auto_title": "Automatización de Workflows con IA",
+        "workflow_auto_desc": "Scripts autónomos para optimizar tareas manuales repetitivas.",
+        "workflow_auto_price": 8000,
+        "technical_roadmap_title": "Hoja de Ruta de Ejecución",
+        "technical_roadmap_desc": "Auditoría técnica profunda y plan de desarrollo estructurado por fases.",
+        "technical_roadmap_price": 1500,
+        "audit_discovery_title": "Validación de Idea (Blueprint)",
+        "audit_discovery_desc": "Sesión de 45-60 min para evaluar viabilidad técnica, sugerir stack y estimar tiempos.",
+        "audit_discovery_price": 400,
+        "audit_scan_title": "Diagnóstico Rápido (Tech Scan)",
+        "audit_scan_desc": "Revisión express de arquitectura y seguridad para detectar riesgos críticos.",
+        "audit_scan_price": 600,
+        "security_audit_title": "Blindaje de Seguridad Pro",
+        "security_audit_desc": "Escaneo profundo de vulnerabilidades y auditoría de cifrado.",
+        "security_audit_price": 9000
+      },
+      "recurring": {
+        "base_title": "Soporte Base",
+        "base_desc": "Mantenimiento preventivo, backups y correcciones menores. Incluye hasta 2 solicitudes técnicas mensuales.",
+        "base_price": 3500,
+        "pro_title": "Soporte Profesional",
+        "pro_desc": "Incluye hasta 5 horas mensuales de ajustes técnicos acumulables durante el mes. Tiempo adicional se cotiza por separado.",
+        "pro_price": 6000,
+        "priority_title": "Soporte VIP",
+        "priority_desc": "Incluye hasta 10 horas mensuales de soporte técnico prioritario y ajustes evolutivos.",
+        "priority_price": 9500
+      },
+      "addons": {
+        "title": "Activos Adicionales",
+      "dynamic_addons": {
+        "systems": ["docs", "security", "support_30d", "prototype"],
+        "ai": ["vector_db", "monitoring", "api_gate"],
+        "growth": ["copywriting", "seo", "ab_testing"],
+        "flash": ["test_suite", "documentation", "speed"],
+        "audit": ["audit_report_lite", "docs", "security"],
+        "support": ["uptime", "priority", "security_pro"]
+      },
+      "addon_items": {
+        "docs": { "title": "Manual Técnico", "desc": "Documentación detallada de arquitectura y código fuente.", "price": 5000 },
+        "security": { "title": "Blindaje de Seguridad", "desc": "Análisis profundo e implementación de cifrado.", "price": 7000 },
+        "support_30d": { "title": "Garantía de 30 Días", "desc": "Soporte técnico para ajustes menores post-lanzamiento.", "price": 2500 },
+        "prototype": { "title": "Prototipado UI", "desc": "Mockup navegable de alta fidelidad en Figma.", "price": 8000 },
+        "vector_db": { "title": "Inteligencia Vectorial", "desc": "Instalación de DB especializada (Pinecone/Supabase) para RAG.", "price": 6000 },
+        "monitoring": { "title": "Monitoreo de Tokens", "desc": "Control de costos y barreras contra alucinaciones.", "price": 3000 },
+        "api_gate": { "title": "Gateway IA Seguro", "desc": "Túnel cifrado para comunicación segura con modelos API.", "price": 5000 },
+        "security_pro": { "title": "Blindaje Activo", "desc": "Parcheo de vulnerabilidades y updates en tiempo real.", "price": 7000 },
+        "audit_report_lite": { "title": "Resumen Ejecutivo PDF", "desc": "Documento síntesis con los hallazgos y recomendaciones clave.", "price": 300 },
+        "test_suite": { "title": "Pruebas Automatizadas", "desc": "Tests unitarios y de integración para partes críticas.", "price": 6000 },
+        "documentation": { "title": "Reporte de Implementación", "desc": "PDF detallando todos los cambios y lógica aplicada.", "price": 2000 },
+        "speed": { "title": "Prueba de Rendimiento", "desc": "Reporte comparativo de métricas antes/después.", "price": 3000 },
+        "seo": { "title": "Pack SEO Técnico", "desc": "Marcado Schema, sitemaps y estrategias de indexación.", "price": 9000 },
+        "analytics": { "title": "Suite de Inteligencia", "desc": "G4, Hotjar y seguimiento de conversiones custom.", "price": 4000 },
+        "ab_testing": { "title": "Infraestructura A/B", "desc": "Setup técnico para pruebas iterativas de funnels.", "price": 5000 },
+        "copywriting": { "title": "Redacción de Ventas", "desc": "Redacción profesional enfocada en conversión.", "price": 6000 },
+        "roadmap_pro": { "title": "Hoja de Ruta Priority", "desc": "Plan iterativo para los próximos 12 meses.", "price": 4000 },
+        "uptime": { "title": "Monitoreo 24/7", "desc": "Dashboard custom con alertas de pulso activas.", "price": 3000 },
+        "priority": { "title": "Respuesta VIP", "desc": "SLA de respuesta técnica reducida (<4h).", "price": 5000 },
+        "security_pro": { "title": "Blindaje Activo", "desc": "Parcheo de vulnerabilidades y updates en tiempo real.", "price": 7000 }
+      },
+      "dynamic_intelligence": {
+        "systems": {
+          "default": {
+            "objective": "Objetivo de Negocio Principal",
+            "objective_placeholder": "ej. Escalar a 100k usuarios concurrentes...",
+            "audience": "Audiencia Objetivo",
+            "audience_placeholder": "ej. Clientes B2B corporativos...",
+            "benchmarks": "Benchmarks de la Industria (URLs)",
+            "benchmarks_placeholder": "Competidores o sistemas de referencia..."
+          }
+        },
+        "ai": {
+          "default": {
+            "objective": "Propósito de la Inteligencia IA",
+            "objective_placeholder": "¿En qué debe ayudar el agente?",
+            "benchmarks": "Fuentes de Base de Conocimiento",
+            "benchmarks_placeholder": "Enlaces a docs, FAQs o sitios...",
+            "audience": "Sistemas Objetivo",
+            "audience_placeholder": "¿Dónde vivirá este agente? (Web, Slack...)"
+          }
+        },
+        "growth": {
+          "default": {
+            "objective": "Objetivo de Crecimiento de Conversión",
+            "objective_placeholder": "Incremento deseado en leads o ventas...",
+            "audience": "Perfil de Cliente Ideal (ICP)",
+            "audience_placeholder": "Demografía objetivo o industria...",
+            "benchmarks": "Referencias de Alto Rendimiento",
+            "benchmarks_placeholder": "Funnels que se desean replicar..."
+          }
+        },
+        "flash": {
+          "default": {
+            "objective": "Definición del Problema Técnico",
+            "objective_placeholder": "Descripción detallada del bug o incidencia...",
+            "audience": "Entorno Afectado",
+            "audience_placeholder": "ej. Panel de Administración en Producción...",
+            "benchmarks": "Contexto del Sistema (GitHub/Sentry)",
+            "benchmarks_placeholder": "Enlaces a logs de error o reportes de issues..."
+          }
+        },
+        "audit": {
+          "default": {
+            "objective": "Preocupación Principal de Diagnóstico",
+            "objective_placeholder": "Puntos de dolor técnicos o riesgos detectados...",
+            "audience": "Stakeholders de Ingeniería",
+            "audience_placeholder": "Equipo de desarrollo actual o futuro...",
+            "benchmarks": "Estándares de Cumplimiento",
+            "benchmarks_placeholder": "Regulaciones o certificaciones específicas..."
+          }
+        },
+        "support": {
+          "default": {
+            "objective": "Requerimientos de Continuidad",
+            "objective_placeholder": "Objetivos de uptime y respuesta crítica...",
+            "audience": "Stakeholders de la Misión",
+            "audience_placeholder": "¿A quién alertar y coordinar?",
+            "benchmarks": "Estado de Salud Actual",
+            "benchmarks_placeholder": "Puntos inestables conocidos del sistema..."
+          }
+        }
+      },
+        "ecom_title": "E-commerce de Alto Rendimiento"
+      },
+      "reviews": {
+        "title": "Reportes de Proyecto",
+        "stat_success": "Tasa de Éxito",
+        "stat_total": "Proyectos Totales",
+        "report_1": "El tiempo de actividad alcanzó el 99.9% tras el rediseño arquitectónico.",
+        "report_2": "Motor RAG de IA integrado reduciendo la carga de soporte en un 40%.",
+        "report_3": "Proyecto de conversión pixel-perfect superó todos los objetivos de crecimiento."
+      },
+      "fields": {
+        "project_type": "¿De qué trata tu proyecto?",
+        "tech_tools": "Herramientas y Tecnologías",
+        "tech_recommend": "Necesito Recomendación Experta",
+        "tech_other": "Otra / Definir Manualmente",
+        "deadline": "Plazo del Proyecto",
+        "start_date": "Inicio Deseado",
+        "end_date": "Entrega Final Deseada",
+        "comm_pref": "Canal de Sincronización (Demos)",
+        "privacy_level": "Nivel de Confidencialidad",
+        "privacy_standard": "Estándar (Portafolio)",
+        "privacy_nda": "Privado (NDA Estricto)",
+        "agreement_notice": "Confirmo que he leído y acepto los protocolos del proyecto.",
+        "asset_upload": "Activos de Evaluación (Wireframes, Marca)",
+        "asset_upload_desc": "Suba archivos o pegue links externos",
+        "asset_url_placeholder": "Links a Figma, Notion o Drive...",
+        "repo_url": "URL del Repositorio (Opcional)"
+      },
+      "disclosure": {
+        "title": "PROTOCOLOS DEL PROYECTO",
+        "subtitle": "REGLAS DE ENGANCHE Y MARCO LEGAL",
+        "cat_1_title": "OPERACIONES TÉCNICAS",
+        "cat_2_title": "MARCO LEGAL Y DEFENSA",
+        "cat_3_title": "INGENIERÍA AVANZADA Y ÉTICA",
+        "rule_1_title": "CONGELACIÓN DE ALCANCE",
+        "rule_1_desc": "Cualquier modificación al resumen técnico tras el inicio del proyecto requerirá una re-evaluación del blueprint y presupuesto.",
+        "rule_2_title": "SINCRONIZACIÓN DE UPLINK",
+        "rule_2_desc": "Las revisiones de progreso se realizarán exclusivamente vía Demos en vivo en el canal seleccionado.",
+        "rule_3_title": "ACCESO A INFRAESTRUCTURA",
+        "rule_3_desc": "El cliente proporcionará las llaves de acceso (API Keys, Hosting, DB) necesarias para la ejecución sin fricciones.",
+        "rule_4_title": "LÍMITE DE REVISIONES",
+        "rule_4_desc": "Cada hito incluye hasta [2] rondas de revisiones. Cambios estéticos o funcionales fuera del blueprint se consideran misiones nuevas.",
+        "rule_5_title": "COSTOS DE TERCEROS",
+        "rule_5_desc": "Suscripciones a APIs, hosting, dominios o servicios externos son responsabilidad financiera exclusiva del cliente.",
+        "rule_6_title": "FRONTERAS DE PRODUCCIÓN",
+        "rule_6_desc": "El desarrollador no se hace responsable de la administración de sistemas o mantenimiento post-entrega sin un contrato de soporte.",
+        "rule_7_title": "PROTOCOLO DE RESPUESTA",
+        "rule_8_desc": "Silencio superior a [15] días resultará en el archivo del proyecto. La reactivación aplica una tarifa de re-onboarding del 15%.",
+        "rule_9_title": "PROPIEDAD Y PORTAFOLIO",
+        "rule_9_desc": "Los derechos se transfieren al liquidar el pago. El desarrollador retiene el derecho perpetuo de exhibición del proyecto en su portafolio.",
+        "rule_10_title": "LIMITACIÓN DE RESPONSABILIDAD",
+        "rule_10_desc": "La responsabilidad máxima se limita al valor pagado del proyecto. No se responde por lucro cesante o daños indirectos.",
+        "rule_11_title": "INDEMNIZACIÓN DE CONTENIDOS",
+        "rule_11_desc": "El cliente garantiza que todo material provisto no viola derechos de autor de terceros y asume responsabilidad legal total.",
+        "rule_12_title": "ESTATUS PROFESIONAL",
+        "rule_12_desc": "La relación es de contratista independiente. No existe relación laboral, de agencia o asociación alguna.",
+        "rule_13_title": "FUERZA MAYOR",
+        "rule_13_desc": "No hay responsabilidad por retrasos causados por fallos en infraestructuras globales (SaaS, Vercel, Supabase, OpenAI).",
+        "rule_14_title": "JURISDICCIÓN LOCAL",
+        "rule_14_desc": "Cualquier disputa legal o mediación se resolverá bajo las leyes y tribunales de la residencia del desarrollador.",
+        "rule_15_title": "CONCEPTOS DESCARTADOS",
+        "rule_15_desc": "Ideas, diseños o código presentados durante la fase de blueprint pero no seleccionados siguen siendo propiedad del desarrollador.",
+        "rule_16_title": "DEUDA TÉCNICA ACORDADA",
+        "rule_16_desc": "Si el cliente solicita acelerar entregas sacrificando arquitectura, se exonera al desarrollador de optimizaciones futuras.",
+        "rule_17_title": "SEGURIDAD DE DÍA CERO",
+        "rule_17_desc": "Se implementan medidas estándar; no se asume responsabilidad por brechas causadas por vulnerabilidades desconocidas de terceros.",
+        "rule_18_title": "INTEGRIDAD ACADÉMICA",
+        "rule_18_desc": "El cliente confirma que el proyecto tiene fines profesionales y no viola políticas de integridad académica universitaria.",
+        "rule_19_title": "REPRESENTACIÓN TÉCNICA",
+        "rule_19_desc": "El desarrollador comunica su estatus de especialización y el cliente acepta el trabajo basado en el portafolio visual provisto.",
+        "rule_20_title": "DERECHO DE TERMINACIÓN",
+        "rule_20_desc": "El desarrollador podrá cancelar el proyecto ante conductas de acoso o abuso, cobrando el progreso proporcional realizado."
+      },
+      "blueprints": {
+        "systems": {
+          "types": ["SaaS Product", "Panel Administrativo", "Marketplace", "CRM Interno", "Sistema a Medida"],
+          "stacks": [
+            {
+              "label": "FRAMEWORKS & CORE",
+              "items": [
+                { "name": "Next.js 15", "symbol": "N" },
+                { "name": "React 19", "symbol": "⚛" },
+                { "name": "TypeScript", "symbol": "TS" }
+              ]
+            },
+            {
+              "label": "CLOUD & DATA",
+              "items": [
+                { "name": "Supabase", "symbol": "S" },
+                { "name": "PostgreSQL", "symbol": "SQL" },
+                { "name": "Prisma", "symbol": "P" },
+                { "name": "Drizzle ORM", "symbol": "D" }
+              ]
+            },
+            {
+              "label": "ECOSYSTEM & OPS",
+              "items": [
+                { "name": "Stripe", "symbol": "$" },
+                { "name": "Clerk / Auth.js", "symbol": "L" },
+                { "name": "Vercel", "symbol": "▲" },
+                { "name": "Docker", "symbol": "Dk" }
+              ]
+            }
+          ]
+        },
+        "ai": {
+          "types": ["Asistente IA (RAG)", "Automatización de Procesos", "Inteligencia de Datos", "Agente de Voz", "Dashboard IA"],
+          "stacks": [
+            {
+              "label": "MODELS & BRAIN",
+              "items": [
+                { "name": "OpenAI GPT-4", "symbol": "AI" },
+                { "name": "Anthropic Claude", "symbol": "An" },
+                { "name": "Replicate", "symbol": "R" }
+              ]
+            },
+            {
+              "label": "ORCHESTRATION",
+              "items": [
+                { "name": "LangChain", "symbol": "Lc" },
+                { "name": "LlamaIndex", "symbol": "Li" },
+                { "name": "Flowise", "symbol": "Fw" }
+              ]
+            },
+            {
+              "label": "VECTOR & AUTO",
+              "items": [
+                { "name": "Pinecone", "symbol": "Pc" },
+                { "name": "Supabase Vector", "symbol": "V" },
+                { "name": "n8n / Make", "symbol": "8" }
+              ]
+            }
+          ]
+        },
+        "growth": {
+          "types": ["Landing Page de Venta", "Funnel de Marketing", "E-commerce MVP", "Marketing Tech", "SEO Booster"],
+          "stacks": [
+            {
+              "label": "UX & MOTION",
+              "items": [
+                { "name": "Tailwind CSS", "symbol": "T" },
+                { "name": "Framer Motion", "symbol": "Fm" },
+                { "name": "GSAP", "symbol": "G" }
+              ]
+            },
+            {
+              "label": "INSIGHTS & SALES",
+              "items": [
+                { "name": "GA4 Analytics", "symbol": "G4" },
+                { "name": "PostHog", "symbol": "H" },
+                { "name": "Hotjar", "symbol": "Hj" },
+                { "name": "Stripe", "symbol": "$" }
+              ]
+            }
+          ]
+        },
+        "flash": {
+          "types": ["Optimización de Velocidad", "Reparación de Bugs", "Pulido de UI", "Adaptación Móvil"],
+          "stacks": [
+            {
+              "label": "DIAGNOSIS & FIX",
+              "items": [
+                { "name": "Lighthouse", "symbol": "L" },
+                { "name": "Sentry", "symbol": "Se" },
+                { "name": "Chrome DevTools", "symbol": "D" },
+                { "name": "PostHog", "symbol": "H" }
+              ]
+            }
+          ]
+        },
+        "audit": {
+          "types": ["Estudio de Viabilidad", "Revisión de Código", "Auditoría de Seguridad", "Hoja de Ruta de Ejecución"],
+          "stacks": [
+            {
+              "label": "VALIDATION TOOLS",
+              "items": [
+                { "name": "Zod / TypeScript", "symbol": "Z" },
+                { "name": "Jest / Playwright", "symbol": "Pl" },
+                { "name": "SonarQube", "symbol": "Sq" }
+              ]
+            }
+          ]
+        },
+        "support": {
+          "types": ["Mantenimiento Continuo", "Actualizaciones de Funcionalidad", "Seguridad Técnica", "Optimización Cloud"],
+          "stacks": [
+            {
+              "label": "MONITOR & SUPPORT",
+              "items": [
+                { "name": "BetterStack", "symbol": "B" },
+                { "name": "Datadog", "symbol": "Dd" },
+                { "name": "Intercom / Crisp", "symbol": "Cr" }
+              ]
+            }
+          ]
+        }
+      },
+      "comm_options": {
+        "zoom": "Zoom Video",
+        "google_meet": "Google Meet",
+        "discord": "Discord Demo",
+        "slack": "Slack Workspace"
+      },
+      "scope_note": "Cualquier funcionalidad adicional fuera del alcance definido se cotiza por separado.",
+      "trust": {
+        "title": "Por qué confiar:",
+        "exp": "✔ Experiencia real en desarrollo full-stack",
+        "perf": "✔ Enfoque en rendimiento y claridad técnica",
+        "comms": "✔ Comunicación directa y plazos definidos"
+      },
+      "tabs": {
+        "briefing": "Resumen Técnico",
+        "blueprint": "Blueprint",
+        "uplink": "Operaciones",
+        "support": "Soporte",
+        "protocols": "Protocolos"
+      }
+    },
+    "support": {
+      "title": "CENTRO DE COMANDO: SOPORTE",
+      "subtitle": "Base de Conocimientos y Soporte de Ingeniería Directo",
+      "faq_title": "BASE DE CONOCIMIENTO TÉCNICO",
+      "faq_search_placeholder": "Buscar documentación técnica...",
+      "chat_title": "TERMINAL DE SOPORTE TÉCNICO",
+      "chat_subtitle": "Consultas generales y consultoría estratégica",
+      "categories": {
+        "all": "Todos",
+        "getting_started": "Primeros Pasos",
+        "technical": "Técnico",
+        "billing": "Facturación",
+        "security": "Seguridad"
+      },
+      "no_faq_results": "No se encontró documentación técnica para esta búsqueda.",
+      "contact_prompt": "¿Aún necesitas ayuda? Abre un enlace directo a la terminal."
+    },
+    "showcase_items": {
+      "title": "SHOWCASE DE INGENIERÍA",
+      "subtitle": "Implementación en Vivo de Avances de Alto Rendimiento",
+      "items": {
+        "rag": {
+          "title": "PIPELINE IA RAG",
+          "intro": "Un motor de generación aumentada por recuperación vectorial de alto rendimiento diseñado para la automatización cognitiva.",
+          "tags": ["IA", "Vector DB", "LLM"],
+          "cta": "ENTRAR A IMPLEMENTACIÓN"
+        },
+        "iot": {
+          "title": "RED IOT INDUSTRIAL",
+          "intro": "Pipeline de ingestión de datos de alta concurrencia que procesa más de 10k eventos/seg con monitoreo reactivo.",
+          "tags": ["IoT", "Edge", "Rust"],
+          "cta": "ENTRAR A IMPLEMENTACIÓN"
+        },
+        "neural": {
+          "title": "HUB NEURAL MESH",
+          "intro": "Sistema complejo de visualización de datos utilizando mapeo de relaciones espaciales 3D para analítica multidimensional.",
+          "tags": ["3D", "WebGL", "Datos"],
+          "cta": "ENTRAR A IMPLEMENTACIÓN"
+        }
+      }
+    }
+  },
+  "engine": {
+    "title": "EL MOTOR",
+    "subtitle": "Diseña tu próxima innovación de alto rendimiento",
+    "description": "Deja de adivinar y comienza a diseñar. Configura tu stack de módulos personalizados y obtén estimaciones inmediatas del sistema. Infraestructura de precisión para automatización con IA, IoT y flujos de trabajo de alta concurrencia.",
+    "cta": "INICIALIZAR PROYECTO"
+  }
+}

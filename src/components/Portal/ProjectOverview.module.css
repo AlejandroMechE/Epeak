@@ -1,0 +1,310 @@
+.cockpitWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+/* PROJECT NAV BAR — visible switcher when user has 2+ projects */
+.projectNav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.6rem 1.5rem;
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border-color);
+  border-bottom: none;
+  border-radius: var(--radius-sm) var(--radius-sm) 0 0;
+  max-width: 1000px;
+}
+
+.projectCounter {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  font-weight: 900;
+  letter-spacing: 0.2em;
+  color: var(--text-secondary);
+}
+
+.navArrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  color: var(--text-primary);
+  text-decoration: none;
+  transition: all 0.2s ease;
+  background: white;
+}
+
+.navArrow:hover {
+  background: var(--text-primary);
+  color: white;
+  border-color: var(--text-primary);
+}
+
+.navArrowDisabled {
+  opacity: 0.2;
+  cursor: not-allowed;
+  background: transparent;
+  color: var(--text-secondary);
+}
+
+.overviewCard {
+  width: 100%;
+  max-width: 1000px;
+  position: relative;
+  padding: 2.5rem 3rem;
+  background: var(--bg-secondary) !important;
+  border: 1px solid var(--border-color) !important;
+  transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  overflow: hidden;
+}
+
+/* When nav bar is attached above, card merges with it */
+.projectNav + .overviewCard {
+  border-radius: 0 0 var(--radius-sm) var(--radius-sm) !important;
+}
+
+.overviewCard:hover {
+  border-color: var(--accent-primary) !important;
+  box-shadow: 0 12px 48px rgba(0, 0, 0, 0.08);
+}
+
+.sectionTitle {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  font-weight: 850;
+  letter-spacing: 0.3em;
+  color: var(--text-secondary);
+  margin-bottom: 2.5rem;
+  text-align: left;
+  opacity: 0.6;
+}
+
+.cockpitLayout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 280px;
+  gap: 2.5rem;
+  align-items: start; /* Top-align so both sides breathe evenly */
+}
+
+/* LEFT BLOCK: IDENTITY */
+.monolithBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.metaNodes {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.node {
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  font-weight: 900;
+  color: var(--text-secondary);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.3rem 0.6rem;
+  background: var(--bg-tertiary);
+  border-radius: 2px;
+}
+
+.monolithBlock h2 {
+  font-size: clamp(1.8rem, 4vw, 3rem); /* Fluid sizing — no wrapping on normal names */
+  font-weight: 950;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  margin: 0;
+  text-transform: uppercase;
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
+.statusBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.6rem 1.25rem;
+  background: white;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-full);
+  font-size: 0.75rem;
+  font-weight: 850;
+  color: var(--text-primary);
+  width: fit-content;
+}
+
+.pulseIcon {
+  color: var(--accent-primary);
+  filter: drop-shadow(0 0 4px var(--bloom-orange));
+  animation: pulse 2s infinite;
+}
+
+/* RIGHT BLOCK: PROGRESS & ACTIONS */
+.sidebarActions {
+  background: transparent;
+  padding: 0 0 0 2.5rem; /* Left padding acts as vertical rule spacing */
+  border: none;
+  border-left: 1px solid var(--border-color); /* Clean instrument divider */
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+}
+
+.progressSection {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.progressHeader {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.65rem;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  color: var(--text-secondary);
+}
+
+.percentage {
+  color: var(--accent-primary);
+}
+
+.progressBar {
+  height: 8px;
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border-color);
+  position: relative;
+  overflow: hidden;
+  border-radius: 1px; /* Sharp corners for technical feel */
+}
+
+.progressFill {
+  height: 100%;
+  background: var(--gradient-filament);
+  transition: width 1s ease-out;
+}
+
+.progressSegments {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  pointer-events: none;
+}
+
+.segment {
+  border-right: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  border-top: 1px solid var(--border-color);
+  padding-top: 1.5rem;
+}
+
+/* Primary action: high-contrast filled */
+.actionLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.7rem 1.25rem;
+  background: var(--text-primary);
+  color: white;
+  text-decoration: none;
+  font-size: 0.7rem;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  border-radius: 3px;
+  transition: background 0.2s ease;
+}
+
+.actionLink:hover {
+  background: var(--accent-primary);
+}
+
+/* Secondary action: bordered, minimal */
+.chatLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.65rem 1.25rem;
+  background: transparent;
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border: 1px solid var(--border-color);
+  border-radius: 3px;
+  transition: all 0.2s ease;
+}
+
+.chatLink:hover {
+  border-color: var(--accent-primary);
+  color: var(--accent-primary);
+}
+
+/* HUD HUD HUD */
+.cornerAccentTL, .cornerAccentBR {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border: 2px solid var(--accent-primary);
+  opacity: 0.3;
+}
+
+.cornerAccentTL {
+  top: 1.5rem;
+  left: 1.5rem;
+  border-right: none;
+  border-bottom: none;
+}
+
+.cornerAccentBR {
+  bottom: 1.5rem;
+  right: 1.5rem;
+  border-left: none;
+  border-top: none;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.2); opacity: 0.7; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+@media (max-width: 1024px) {
+  .cockpitLayout {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+  
+  .monolithBlock h2 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .overviewCard {
+    padding: 2rem;
+  }
+  
+  .sidebarActions {
+    padding: 1.5rem;
+  }
+}

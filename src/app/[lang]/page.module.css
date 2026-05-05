@@ -1,0 +1,49 @@
+.main {
+  width: 100%;
+}
+
+.experienceSection {
+  position: relative;
+  padding: 8rem 0 10rem;
+  z-index: 10;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 4rem;
+}
+
+.sectionTitle {
+  margin-bottom: 4rem;
+  font-size: var(--font-size-h1);
+  font-weight: var(--weight-black);
+  letter-spacing: 0.02em;
+  color: #0b1121;
+}
+
+.cardsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+  position: relative;
+}
+
+.stackWrapper {
+  margin-top: 10rem;
+}
+
+@media (max-width: 1200px) {
+  .cardsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 2rem;
+  }
+  .cardsGrid {
+    grid-template-columns: 1fr;
+  }
+}

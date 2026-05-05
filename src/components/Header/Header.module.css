@@ -1,0 +1,288 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 4rem;
+  z-index: 1000;
+  transition: transform 0.5s cubic-bezier(0.19, 1, 0.22, 1), 
+              background 0.5s ease, 
+              box-shadow 0.5s ease;
+  background: transparent;
+}
+
+.headerHidden {
+  transform: translateY(-100%);
+}
+
+/* Invisible sensing area that allows the header to reveal itself on hover even when hidden */
+.header::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px; /* Oversized sensing area */
+  pointer-events: auto;
+  z-index: -1;
+}
+
+.headerScrolled {
+  background: var(--glass-bg);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  border-bottom: 1px solid var(--glass-border);
+  box-shadow: var(--shadow-sm);
+  height: 70px; /* Slightly more compact when scrolled */
+}
+
+.left, .center, .right {
+  flex: 1;
+}
+
+.left {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portalHeader .left, 
+.portalHeader .right {
+  display: none;
+}
+
+.portalHeader {
+  justify-content: center;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 2.5rem;
+}
+
+/* Settings Menu */
+.settingsArea {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.settingsToggle {
+  background: transparent;
+  border: none;
+  color: var(--text-secondary);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all var(--transition-normal);
+  padding: 0.5rem;
+  border-radius: 50%;
+}
+
+.settingsToggle:hover {
+  color: var(--accent-primary);
+  background: var(--bg-tertiary);
+  transform: rotate(45deg);
+}
+
+.toggleActive {
+  color: var(--accent-primary);
+  background: var(--bg-tertiary);
+  transform: rotate(90deg);
+}
+
+.dropdown {
+  position: absolute;
+  top: calc(100% + 1rem);
+  right: 0;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-lg);
+  padding: 0.75rem;
+  min-width: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  z-index: 1000;
+  animation: slideIn var(--transition-fast);
+}
+
+@keyframes slideIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.dropdownSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.dropdownDivider {
+  height: 1px;
+  background: var(--border-subtle);
+  margin: 0.25rem 0;
+}
+
+.menuItem {
+  background: transparent;
+  border: none;
+  color: var(--text-secondary);
+  padding: 0.6rem;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  font-weight: var(--weight-black);
+  transition: all var(--transition-fast);
+  flex: 1;
+}
+
+.menuItem:hover {
+  background: var(--bg-tertiary);
+  color: var(--text-primary);
+}
+
+.menuItem.active {
+  color: var(--accent-primary);
+  background: var(--accent-light);
+}
+
+.middle {
+  flex: 0 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.brand {
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.nav {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.link {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition: color var(--transition-fast), opacity var(--transition-fast);
+  white-space: nowrap;
+}
+
+.link:hover {
+  opacity: 0.6;
+}
+
+.separator {
+  color: var(--text-secondary);
+  font-size: 0.75rem;
+  font-weight: 700;
+  opacity: 0.4;
+}
+
+/* Development Switcher Styles */
+.devSwitcher {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  padding: 0.4rem 0.8rem;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+}
+
+.brand {
+  font-size: 0.9rem;
+  font-weight: var(--weight-black);
+  letter-spacing: 0.15em;
+  color: var(--text-primary);
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  white-space: nowrap;
+}
+
+.brandDivider {
+  color: var(--accent-primary);
+  opacity: 0.5;
+  font-weight: 300;
+}
+
+.devLink {
+  font-size: 0.7rem;
+  font-weight: 800;
+  color: var(--text-secondary);
+  transition: all var(--transition-fast);
+}
+
+.devLink:hover {
+  color: var(--accent-primary);
+}
+
+.active {
+  color: var(--accent-primary);
+  text-decoration: underline;
+}
+
+.devSeparator {
+  color: var(--text-muted);
+  font-size: 0.7rem;
+}
+
+@media (max-width: 1024px) {
+  .header {
+    padding: 1rem 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav {
+    display: none;
+  }
+}
+
+.logoutBtn {
+  background: transparent;
+  border: 1px solid var(--accent-primary);
+  color: var(--accent-primary);
+  font-size: 0.7rem;
+  font-weight: 800;
+  padding: 0.4rem 0.8rem;
+  border-radius: var(--radius-full);
+  cursor: pointer;
+  letter-spacing: 0.05em;
+  transition: all var(--transition-fast);
+  white-space: nowrap;
+}
+
+.logoutBtn:hover {
+  background: var(--accent-primary);
+  color: #ffffff;
+}

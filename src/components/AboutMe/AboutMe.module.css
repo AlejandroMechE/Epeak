@@ -1,0 +1,229 @@
+/* Company Card */
+.section {
+  /* Inherits semi-transparent blur from global .section-base */
+}
+
+.companyCard {
+  margin-bottom: 8rem;
+  display: flex;
+  align-items: center;
+  gap: 6rem;
+}
+
+.logoWrapper {
+  width: 320px;
+  height: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  background: radial-gradient(circle, var(--accent-light) 0%, transparent 70%);
+  border-radius: var(--radius-md);
+}
+
+.companyLogo {
+  width: 140%;
+  height: auto;
+  opacity: 0.85;
+}
+
+.companyInfo {
+  flex: 1;
+}
+
+.companyName {
+  font-size: 3rem;
+  font-weight: var(--weight-black);
+  color: var(--text-primary);
+  margin: 0 0 0.5rem;
+  letter-spacing: -0.02em;
+}
+
+.companyTagline {
+  font-size: 1.1rem;
+  font-weight: var(--weight-semibold);
+  color: var(--accent-primary);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.companyDescription {
+  font-size: 1.15rem;
+  line-height: 1.8;
+  color: var(--text-secondary);
+  font-weight: var(--weight-medium);
+  max-width: 700px;
+}
+
+/* Identity Card (Founder) */
+.identityCard {
+  margin-bottom: 5rem;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.imageWrapper {
+  width: 260px;
+  height: 320px; /* Increased to avoid clipping head */
+  overflow: visible; /* Allow head to bleed out for premium feel */
+  flex-shrink: 0;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.portrait {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* Ensure the whole cutout is visible */
+  object-position: bottom center;
+}
+
+.identityInfo {
+  flex: 1;
+}
+
+.name {
+  font-size: 2.5rem;
+  font-weight: var(--weight-black);
+  color: var(--text-primary);
+  margin: 0 0 0.5rem;
+  letter-spacing: -0.03em;
+}
+
+.role {
+  font-size: 1.1rem;
+  font-weight: var(--weight-semibold);
+  color: var(--accent-primary);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.personalDescription {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+  font-weight: var(--weight-medium);
+  margin-bottom: 2.5rem;
+  max-width: 600px;
+}
+
+.detailsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  max-width: 500px;
+}
+
+.detailItem {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.detailLabel {
+  font-size: 0.75rem;
+  font-weight: var(--weight-bold);
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  letter-spacing: 0.1em;
+}
+
+.detailValue {
+  font-size: 1rem;
+  font-weight: var(--weight-extra-bold);
+  color: var(--text-primary);
+}
+
+/* Pillar Grid */
+.pillarGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+}
+
+.aboutCard {
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutCard:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--accent-light);
+}
+
+.pillarHeader {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.pillarIndicator {
+  width: 12px;
+  height: 12px;
+  background: var(--accent-primary);
+  border-radius: 2px;
+  transform: rotate(45deg);
+}
+
+.pillarTitle {
+  font-size: 1.25rem;
+  font-weight: var(--weight-black);
+  color: var(--text-primary);
+  letter-spacing: 0.05em;
+  margin: 0;
+}
+
+.pillarSubtitle {
+  font-size: var(--font-size-body);
+  font-weight: var(--weight-bold);
+  color: var(--accent-primary);
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.pillarContent {
+  font-size: var(--font-size-body);
+  color: var(--text-secondary);
+  line-height: 1.7;
+  font-weight: var(--weight-medium);
+  margin: 0;
+}
+
+/* Responsive */
+@media (max-width: 1200px) {
+  .identityCard {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+    padding: 2.5rem;
+  }
+  
+  .pillarGrid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .aboutCard {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 2rem;
+  }
+  
+  .detailsGrid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}

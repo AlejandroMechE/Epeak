@@ -1,0 +1,137 @@
+.container {
+  width: 100%;
+  padding: 1.5rem 0.5rem;
+  position: relative;
+}
+
+.line {
+  position: absolute;
+  top: 1.5rem + 12px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: var(--border-subtle);
+  transform: translateY(-50%);
+  z-index: 0;
+}
+
+.fill {
+  height: 100%;
+  background: var(--accent-primary);
+  box-shadow: 0 0 10px var(--bloom-orange);
+}
+
+.steps {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  transition: all 0.3s ease;
+  width: 60px;
+}
+
+.node {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: var(--bg-primary);
+  border: 2px solid var(--border-subtle);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-secondary);
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--text-secondary);
+  opacity: 0.3;
+}
+
+.label {
+  font-family: var(--font-mono);
+  font-size: 0.55rem;
+  font-weight: 850;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  opacity: 0.6;
+  white-space: nowrap;
+}
+
+.past .node {
+  border-color: var(--accent-primary);
+  color: var(--accent-primary);
+}
+
+.past .dot {
+  background: var(--accent-primary);
+  opacity: 1;
+}
+
+.past .label {
+  color: var(--text-primary);
+  opacity: 0.8;
+}
+
+.current .node {
+  border-color: var(--accent-primary);
+  background: var(--bg-primary);
+  color: var(--accent-primary);
+  transform: scale(1.1);
+}
+
+.current .label {
+  color: var(--accent-primary);
+  opacity: 1;
+  font-weight: 950;
+}
+
+.glow {
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  right: -4px;
+  bottom: -4px;
+  border-radius: 50%;
+  background: var(--accent-primary);
+  opacity: 0.2;
+  filter: blur(4px);
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); opacity: 0.2; }
+  50% { transform: scale(1.2); opacity: 0.4; }
+  100% { transform: scale(1); opacity: 0.2; }
+}
+
+.step:hover:not(:disabled) .node {
+  border-color: var(--text-primary);
+  transform: scale(1.1);
+}
+
+.step:disabled {
+  cursor: not-allowed;
+}
+
+@media (max-width: 768px) {
+  .label {
+    display: none;
+  }
+}

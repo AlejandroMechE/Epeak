@@ -1,0 +1,77 @@
+.section {
+  padding-bottom: var(--section-spacing);
+}
+
+.header {
+  margin-bottom: 4rem;
+  text-align: left;
+}
+
+.title {
+  font-size: 0.75rem;
+  font-weight: var(--weight-black);
+  color: var(--accent-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  margin-bottom: 1.5rem;
+}
+
+.ctaContainer {
+  position: relative;
+  width: 100%;
+}
+
+.glassCard {
+  padding: 4.5rem;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 900px;
+  border-radius: var(--radius-xl);
+}
+
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.cardTitle {
+  font-size: 2.8rem;
+  font-weight: var(--weight-black);
+  color: var(--text-primary);
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+  margin: 0;
+}
+
+.description {
+  margin: 0 auto;
+  max-width: 700px;
+  color: var(--text-secondary);
+  font-size: 1.2rem;
+  line-height: 1.7;
+  font-weight: var(--weight-medium);
+}
+
+.ctaWrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+@media (max-width: 1024px) {
+  .glassCard {
+    padding: 4rem 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .description {
+    font-size: 1rem;
+  }
+  
+  .ctaButton {
+    width: 100%;
+  }
+}
