@@ -6,13 +6,20 @@ import { NextResponse, type NextRequest } from "next/server";
  * This is critical for ensuring user remains logged in across navigation.
  */
 export async function updateSession(request: NextRequest) {
+  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
+  const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+
   let supabaseResponse = NextResponse.next({
     request,
   });
 
+  if (!supabaseUrl || !supabaseKey) {
+    return { supabaseResponse, user: null, profile: null };
+  }
+
   const supabase = createServerClient(
-    process.env.NEXT_PUBLIC_SUPABASE_URL!,
-    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
+    supabaseUrl,
+    supabaseKey,
     {
       cookies: {
         getAll() {
